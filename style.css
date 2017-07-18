@@ -225,7 +225,6 @@ figure {
  * 2. Show the overflow in Edge and IE.
  */
 hr {
-  -webkit-box-sizing: content-box;
   box-sizing: content-box;
   /* 1 */
   height: 0;
@@ -318,7 +317,6 @@ fieldset {
  *    `fieldset` elements in all browsers.
  */
 legend {
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   /* 1 */
   color: inherit;
@@ -344,7 +342,6 @@ textarea {
  */
 [type="checkbox"],
 [type="radio"] {
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   /* 1 */
   padding: 0;
@@ -417,10 +414,8 @@ body {
 /* Styles for the Home page */
 .home header, .home footer {
   display: none; }
-
 .home .et_pb_section, .home {
-  background-color: purple; }
-
+>>>>>>> parent of 6d57c34... Creating a Theme
 .home #Temp-Home .text p {
   line-height: 1.2;
   font-size: 3em;
