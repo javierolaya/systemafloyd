@@ -412,10 +412,18 @@ body {
    Partials --> Pages
    ========================================================================= */
 /* ==========================================================================
+   Structure
+   ========================================================================== */
+.et_pb_row, .container {
+  width: 100%;
+  max-width: none; }
+
+/* ==========================================================================
    Home page
    ========================================================================== */
 /* Styles for the Home page */
-.home header, .home footer {
+.home header,
+.home footer {
   display: none; }
 
 .home .et_pb_section, .home {
@@ -425,3 +433,7 @@ body {
   line-height: 1.2;
   font-size: 3em;
   color: #FFF; }
+
+.home #Temp-Home .et_pb_row {
+  width: 80%;
+  max-width: 1080px; }
