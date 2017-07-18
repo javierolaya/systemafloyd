@@ -1,0 +1,27 @@
+/* ==========================================================================
+   Home page
+   ========================================================================== */
+
+
+/* Styles for the Home page */
+.home
+{
+	header, footer
+	{
+		display: none;
+	}
+	.et_pb_section, &
+	{
+		background-color: #003D4C;
+	}
+	#Temp-Home
+	{
+		.text p
+		{
+			line-height: 1.2;
+			font-size: 3em;
+			color: #FFF;
+		}
+	}
+}
+

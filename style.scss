@@ -1,0 +1,36 @@
+/*!
+    Theme Name:     Systema Floyd
+    Template: Divi
+    Theme URI: http://www.elegantthemes.com/gallery/divi/
+    Description:    Systema Floyd Theme.
+    Author:         WGI Creative
+    Author URI:     http://wgicreative.com
+    Version: 1.0.0
+    License: GNU General Public License v2 or later
+    License URI: http://www.gnu.org/licenses/gpl-2.0.html
+    Text Domain: Systema Floyd
+    Tags:
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+/* =========================================================================
+   Parent
+   ========================================================================= */
+@import "../Divi/style.css";
+/* =========================================================================
+   Vendors
+   ========================================================================= */
+@import "sass/vendors/normalize/normalize";
+@import "sass/vendors/breakpoint/breakpoint";
+/* =========================================================================
+   Modules
+   ========================================================================= */
+@import "sass/modules/variables";
+@import "sass/modules/mixins";
+@import "sass/modules/typography";
+/* =========================================================================
+   Partials --> Pages
+   ========================================================================= */
+@import "sass/partials/pages/home";
