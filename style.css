@@ -409,10 +409,13 @@ body {
   font-family: "Roboto", sans-serif; }
 
 p {
+  line-height: 1;
   font-size: 2.2em; }
 
 /*All Headers are Robo Condensed*/
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   text-transform: uppercase;
   font-family: "Roboto Condensed", sans-serif; }
 
@@ -464,18 +467,22 @@ h3 {
 
 /* Styles for the Home page */
 .hero .systema {
-  padding: 9% 0; }
+  padding: 9% 0 11%; }
   .hero .systema h1 {
+    max-width: 50%;
     margin-bottom: 2%;
     line-height: .8;
     color: #588692; }
   .hero .systema p {
+    max-width: 30%;
     color: #FFF; }
   .hero .systema h1,
   .hero .systema p {
     text-align: center;
-    max-width: 50%;
     margin: 0 auto; }
+
+.about {
+  background-image: url(/wp-content/uploads/2017/07/Tom-Vlad.jpg); }
 
 .classes .class {
   width: 25%;
