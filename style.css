@@ -418,6 +418,7 @@ h1, h2, h3 {
 
 /*1em = 10pt*/
 h1 {
+  margin: 0;
   font-size: 17.6em; }
 
 h3 {
@@ -433,10 +434,18 @@ h3 {
   width: 100%;
   max-width: none; }
 
+.button {
+  text-align: center;
+  margin-top: 2%; }
+  .button a {
+    padding: 1% 7%;
+    border-radius: 30px;
+    background: yellow; }
+
 /* ==========================================================================
    Home page
    ========================================================================== */
-/* Styles for the Home page */
+/* Styles for the Temp Home page */
 .home header,
 .home footer {
   display: none; }
@@ -453,14 +462,39 @@ h3 {
   width: 80%;
   max-width: 1080px; }
 
-.hero .systema h1 {
-  color: #588692; }
-
-.hero .systema h1,
-.hero .systema p {
-  text-align: center; }
+/* Styles for the Home page */
+.hero .systema {
+  padding: 9% 0; }
+  .hero .systema h1 {
+    margin-bottom: 2%;
+    line-height: .8;
+    color: #588692; }
+  .hero .systema p {
+    color: #FFF; }
+  .hero .systema h1,
+  .hero .systema p {
+    text-align: center;
+    max-width: 50%;
+    margin: 0 auto; }
 
 .classes .class {
   width: 25%;
-  padding: 20% 0 20%;
+  padding: 9% 0;
   margin-right: 0; }
+  .classes .class h3, .classes .class .button a {
+    text-align: center;
+    color: #FFF; }
+  .classes .class .button a {
+    background-color: #E4002B; }
+
+.classes .kids {
+  background-image: url(/wp-content/uploads/2017/07/Kids-Classes.jpg); }
+
+.classes .adult {
+  background-image: url(/wp-content/uploads/2017/07/Adult-Classes.jpg); }
+
+.classes .corporate {
+  background-image: url(/wp-content/uploads/2017/07/Private-Classes.jpg); }
+
+.classes .health {
+  background-image: url(/wp-content/uploads/2017/07/Health.jpg); }

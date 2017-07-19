@@ -3,7 +3,7 @@
    ========================================================================== */
 
 
-/* Styles for the Home page */
+/* Styles for the Temp Home page */
 
 .home {
     header,
@@ -27,14 +27,24 @@
     }
 }
 
+/* Styles for the Home page */
 .hero {
     .systema {
+        padding: 9% 0;
         h1 {
+            margin-bottom: 2%;
+            line-height: .8;
             color: #588692;
+        }
+        p
+        {
+            color: #FFF;
         }
         h1,
         p {
             text-align: center;
+            max-width: 50%;
+            margin: 0 auto;
         }
     }
 }
@@ -44,7 +54,25 @@
 .classes {
     .class {
         width: 25%;
-        padding: 20% 0 20%;
+        padding: 9% 0;
         margin-right: 0;
+        h3, .button a
+        {
+            text-align: center;
+            color: #FFF;
+        }
+        .button a
+        {
+            background-color: $red;
+        }
     }
+    .kids {
+        background-image: url(/wp-content/uploads/2017/07/Kids-Classes.jpg);
+    }
+    .adult {
+        background-image: url(/wp-content/uploads/2017/07/Adult-Classes.jpg);}
+    .corporate {
+        background-image: url(/wp-content/uploads/2017/07/Private-Classes.jpg);}
+    .health {
+        background-image: url(/wp-content/uploads/2017/07/Health.jpg);}    
 }
