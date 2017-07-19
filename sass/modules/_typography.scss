@@ -13,18 +13,27 @@ body {
     font-family: $robo;
 }
 
-p {}
+p {
+    font-size: 2.2em;
+}
 
 /*All Headers are Robo Condensed*/
 h1, h2, h3 {
+    text-transform: uppercase;
     font-family: $roboCon;
 }
 
-h1 {}
+
+/*1em = 10pt*/
+h1 {
+    font-size: 17.6em;
+}
 
 h2 {}
 
-h3 {}
+h3 {
+    font-size: 5.2em;
+}
 
 h4 {}
 

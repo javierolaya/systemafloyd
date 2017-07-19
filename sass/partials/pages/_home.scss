@@ -27,4 +27,24 @@
     }
 }
 
-.classes {}
+.hero {
+    .systema {
+        h1 {
+            color: #588692;
+        }
+        h1,
+        p {
+            text-align: center;
+        }
+    }
+}
+
+.about {}
+
+.classes {
+    .class {
+        width: 25%;
+        padding: 20% 0 20%;
+        margin-right: 0;
+    }
+}

@@ -408,9 +408,20 @@ body {
   /* 1em = 10px */
   font-family: "Roboto", sans-serif; }
 
+p {
+  font-size: 2.2em; }
+
 /*All Headers are Robo Condensed*/
 h1, h2, h3 {
+  text-transform: uppercase;
   font-family: "Roboto Condensed", sans-serif; }
+
+/*1em = 10pt*/
+h1 {
+  font-size: 17.6em; }
+
+h3 {
+  font-size: 5.2em; }
 
 /* =========================================================================
    Partials --> Pages
@@ -441,3 +452,15 @@ h1, h2, h3 {
 .home #Temp-Home .et_pb_row {
   width: 80%;
   max-width: 1080px; }
+
+.hero .systema h1 {
+  color: #588692; }
+
+.hero .systema h1,
+.hero .systema p {
+  text-align: center; }
+
+.classes .class {
+  width: 25%;
+  padding: 20% 0 20%;
+  margin-right: 0; }
