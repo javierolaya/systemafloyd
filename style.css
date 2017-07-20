@@ -526,5 +526,5 @@ h3 {
     line-height: 30px; }
   .Bio .title {
     width: 50%; }
-    .Bio .title .title_top {
+    .Bio .title .title_top h2 {
       font-family: "Roboto Condensed", sans-serif; }
