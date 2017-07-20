@@ -544,5 +544,7 @@ h3 {
   .description p {
     line-height: 30px !important; }
 
-.testimonials {
-  width: 25%; }
+.testimonials .test {
+  background-color: #c3c5c8; }
+  .testimonials .test h3 {
+    font-size: 1.5em; }
