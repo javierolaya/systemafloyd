@@ -482,7 +482,13 @@ h3 {
     margin: 0 auto; }
 
 .about {
+  padding: 7%;
+  background-repeat: no-repeat;
+  background-position: center right;
   background-image: url(/wp-content/uploads/2017/07/Tom-Vlad.jpg); }
+  .about .approach {
+    width: 25%;
+    color: #003D4C; }
 
 .classes .class {
   width: 25%;
