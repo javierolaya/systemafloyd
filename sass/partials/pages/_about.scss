@@ -39,10 +39,15 @@
     }
 .description {
     
+        width: 90%;
         color:$blue;
-        font-size: 2em;
-        line-height: 30px !important;
+        margin-top: 1%;
+        margin-bottom: 4%;
     
+    p {
+        
+        line-height: 30px !important;
+    }
 }
 
  
