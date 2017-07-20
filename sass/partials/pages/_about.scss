@@ -7,10 +7,10 @@
     background-image: url(/wp-content/uploads/2017/07/IMG_7155.jpg);
     
     .text {
-        width: 25%;
-        
+                
         
         h2 {
+            width:50%;
            color: #c3c5c8;
            font-size: 15em;
            font-family: "Roboto Condensed", sans-serif;
@@ -21,6 +21,8 @@
             color:white;
             font-size: 2em;
             text-align: right;
+            width: 99%;
+            line-height: 30px;
         }
     }
 }
