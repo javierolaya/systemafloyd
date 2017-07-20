@@ -525,10 +525,18 @@ h3 {
     text-align: right;
     line-height: 30px; }
 
-.title h2 {
-  font-size: 6em;
-  color: #728472; }
+.title {
+  width: 90%;
+  margin-top: 2%; }
+  .title h2 {
+    font-size: 6em;
+    color: #728472;
+    margin-bottom: -3%; }
+  .title h1 {
+    font-size: 9.7em;
+    color: #003D4C; }
 
-.title h1 {
-  font-size: 9.7em;
-  color: #003D4C; }
+.description p {
+  color: #003D4C;
+  font-size: 2em;
+  line-height: 30px !important; }

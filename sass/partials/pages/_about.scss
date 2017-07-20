@@ -19,12 +19,15 @@
         }
     }
 }
-    .title {
+.title {
         
+            width: 90%;
+            margin-top: 2%;
             
             h2 {
             font-size: 6em;
             color:  #728472;
+            margin-bottom: -3%;
             }
             
             h1 {
@@ -34,3 +37,13 @@
             
         
     }
+.description {
+    
+    p {
+        color:$blue;
+        font-size: 2em;
+        line-height: 30px !important;
+    }
+}
+
+ 
