@@ -544,7 +544,17 @@ h3 {
   .description p {
     line-height: 30px !important; }
 
-.testimonials .test {
-  background-color: #c3c5c8; }
-  .testimonials .test h3 {
-    font-size: 1.5em; }
+.testimonials {
+  width: 100%; }
+  .testimonials .box1 {
+    background-color: #c3c5c8;
+    width: 25%;
+    height: 574px; }
+    .testimonials .box1 h3 {
+      font-size: 1.5em; }
+  .testimonials .box2 {
+    background-color: #c3c5c8;
+    width: 25%;
+    height: 574px; }
+    .testimonials .box2 h3 {
+      font-size: 1.5em; }

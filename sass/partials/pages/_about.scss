@@ -52,8 +52,22 @@
 
 .testimonials {
     
-    .test {
+        width: 100%;
+    
+    .box1 {
         background-color: #c3c5c8;
+        width: 25%;
+        height: 574px;
+        
+        h3 {
+            font-size: 1.5em;
+        }
+    }
+    
+    .box2 {
+        background-color: #c3c5c8;
+        width: 25%;
+        height: 574px;
         
         h3 {
             font-size: 1.5em;
