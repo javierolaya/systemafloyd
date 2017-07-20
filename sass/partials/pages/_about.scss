@@ -25,13 +25,13 @@
             margin-top: 2%;
             
             h2 {
-            font-size: 6em;
+            font-size: 5em;
             color:  #728472;
             margin-bottom: -3%;
             }
             
             h1 {
-                font-size: 9.7em;
+                font-size: 7em;
                 color: $blue;
             }
             
@@ -50,4 +50,7 @@
     }
 }
 
- 
+.testimonials {
+    
+    width: (100% / 4);
+}
