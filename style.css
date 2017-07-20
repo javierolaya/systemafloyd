@@ -524,9 +524,11 @@ h3 {
     color: white;
     text-align: right;
     line-height: 30px; }
-  .Bio .title h2 {
-    font-size: 6em;
-    color: #728472; }
-  .Bio .title h1 {
-    font-size: 9.7em;
-    color: #003D4C; }
+
+.title h2 {
+  font-size: 6em;
+  color: #728472; }
+
+.title h1 {
+  font-size: 9.7em;
+  color: #003D4C; }
