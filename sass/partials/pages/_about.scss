@@ -8,6 +8,19 @@
     
     .text {
         width: 25%;
-        color:white;
+        
+        
+        h2 {
+           color: #c3c5c8;
+           font-size: 15em;
+           font-family: "Roboto Condensed", sans-serif;
+            text-align: right;
+        }
+        
+        p {
+            color:white;
+            font-size: 2em;
+            text-align: right;
+        }
     }
 }
