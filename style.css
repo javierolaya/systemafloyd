@@ -522,6 +522,7 @@ h3 {
     text-align: right; }
   .Bio .text p {
     color: white;
-    font-size: 2em;
     text-align: right;
     line-height: 30px; }
+  .Bio .title .title_top {
+    font-family: "Roboto Condensed", sans-serif; }
