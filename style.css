@@ -605,12 +605,12 @@ h3 {
     margin-bottom: -3%;
     text-align: center; }
   .title h3 {
-    font-size: 7em;
+    font-size: 9em;
     color: #003D4C;
     text-align: center; }
 
 .description {
-  width: 90%;
+  width: 75%;
   color: #003D4C;
   margin-top: 1%;
   margin-bottom: 4%;
@@ -623,7 +623,7 @@ h3 {
   /* Chrome, Safari, Opera */
   -moz-column-gap: 40px;
   /* Firefox */
-  column-gap: 40px; }
+  column-gap: 55px; }
   .description p {
     line-height: 30px !important; }
 
@@ -639,7 +639,7 @@ h3 {
       margin-right: 0; } }
   @media (min-width: 1300px) {
     .testimonials .class {
-      min-height: 475px; } }
+      min-height: 532px; } }
 
 .testimonials .picture {
   background-image: url(/wp-content/uploads/2017/07/George.png); }
@@ -664,6 +664,53 @@ h3 {
 
 .testimonials .text_box2 {
   background-color: #003D4C; }
-  @media (max-width: 1876px) {
+  @media (min-width: 1300px) {
     .testimonials .text_box2 {
-      padding: 9% 1%; } }
+      padding: 9% 3%; } }
+  @media (min-width: 1300px) and (max-width: 1876px) {
+    .testimonials .text_box2 {
+      padding: 9% 5%; } }
+
+.testimonials2 .class2 {
+  width: 50%;
+  padding: 9% 0%;
+  min-height: 300px;
+  margin: 0 !important; }
+  @media (min-width: 980px) {
+    .testimonials2 .class2 {
+      width: 25%;
+      min-height: 400px;
+      margin-right: 0; } }
+  @media (min-width: 1300px) {
+    .testimonials2 .class2 {
+      min-height: 532px; } }
+
+.testimonials2 .picture2 {
+  background-image: url(/wp-content/uploads/2017/07/George.png); }
+  @media (min-width: 1300px) {
+    .testimonials2 .picture2 {
+      padding: 9% 3%; } }
+  @media (min-width: 1300px) and (max-width: 1876px) {
+    .testimonials2 .picture2 {
+      padding: 9% 5%; } }
+
+.testimonials2 .text_box2 {
+  background-color: #c3c5c8; }
+  @media (min-width: 1300px) {
+    .testimonials2 .text_box2 {
+      padding: 9% 3%; } }
+  @media (min-width: 1300px) and (max-width: 1876px) {
+    .testimonials2 .text_box2 {
+      padding: 9% 5%; } }
+
+.testimonials2 .picture {
+  background-image: url(/wp-content/uploads/2017/07/George.png); }
+
+.testimonials2 .text_box3 {
+  background-color: #003D4C; }
+  @media (min-width: 1300px) {
+    .testimonials2 .text_box3 {
+      padding: 9% 3%; } }
+  @media (min-width: 1300px) and (max-width: 1876px) {
+    .testimonials2 .text_box3 {
+      padding: 9% 5%; } }

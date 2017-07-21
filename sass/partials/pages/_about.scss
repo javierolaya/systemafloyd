@@ -32,7 +32,7 @@
             }
             
             h3 {
-            font-size: 7em;
+            font-size: 9em;
             color: $blue;
             text-align: center;
             }
@@ -41,7 +41,7 @@
     }
 .description {
     
-        width: 90%;
+        width: 75%;
         color:$blue;
         margin-top: 1%;
         margin-bottom: 4%;
@@ -51,7 +51,7 @@
 
         -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
         -moz-column-gap: 40px; /* Firefox */
-        column-gap: 40px;
+        column-gap: 55px;
     
     p {
         
@@ -71,7 +71,7 @@
             margin-right: 0;
         }
         @include breakpoint(min-width 1300px) {
-            min-height: 475px;
+            min-height: 532px;
         }
     }
     .picture {
@@ -96,9 +96,59 @@
         background-image: url(/wp-content/uploads/2017/07/George.png);
     }
     .text_box2 {
-        background-color: $blue;
-        @include breakpoint(max-width 1876px) {
-            padding: 9% 1%;
+       background-color: $blue;
+        @include breakpoint(min-width 1300px) {
+            padding: 9% 3%;
+        }
+        @include breakpoint(1300px 1876px) {
+            padding: 9% 5%;
+        }
+    }
+}
+
+.testimonials2 {
+    .class2 {
+        width: 50%;
+        padding: 9% 0%;
+        min-height: 300px;
+        margin: 0 !important;
+        @include breakpoint(min-width 980px) {
+            width: 25%;
+            min-height: 400px;
+            margin-right: 0;
+        }
+        @include breakpoint(min-width 1300px) {
+            min-height: 532px;
+        }
+    }
+    .picture2 {
+        background-image: url(/wp-content/uploads/2017/07/George.png);
+        @include breakpoint(min-width 1300px) {
+            padding: 9% 3%;
+        }
+        @include breakpoint(1300px 1876px) {
+            padding: 9% 5%;
+        }
+    }
+    .text_box2 {
+        background-color: #c3c5c8 ;
+        @include breakpoint(min-width 1300px) {
+            padding: 9% 3%;
+        }
+        @include breakpoint(1300px 1876px) {
+            padding: 9% 5%;
+        }
+    }
+    .picture {
+        background-image: url(/wp-content/uploads/2017/07/George.png);
+    }
+    .text_box3 {
+       background-color: $blue;
+        @include breakpoint(min-width 1300px) {
+            padding: 9% 3%;
+        }
+        @include breakpoint(1300px 1876px) {
+            padding: 9% 5%;
         }
     }
 }
