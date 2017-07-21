@@ -721,3 +721,15 @@ h3 {
   @media (min-width: 1300px) and (max-width: 1876px) {
     .testimonials .picture4 {
       padding: 9% 5%; } }
+
+/*Kids Classes Page*/
+.systema .bluebox {
+  background-color: #003D4C; }
+  .systema .bluebox h2 {
+    text-align: center;
+    color: white;
+    font-size: 8em; }
+  .systema .bluebox p {
+    text-align: center;
+    color: white;
+    font-size: 2em; }
