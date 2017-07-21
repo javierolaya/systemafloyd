@@ -104,13 +104,13 @@
     }
     .kids {
         background-image: url(/wp-content/uploads/2017/07/Kids-Classes.jpg);
-        @include breakpoint(max-width 1950px) {
+        @include breakpoint(max-width 1876px) {
             padding: 9% 5%;
         }
     }
     .adult {
         background-image: url(/wp-content/uploads/2017/07/Adult-Classes.jpg);
-        @include breakpoint(max-width 1950px) {
+        @include breakpoint(max-width 1876px) {
             padding: 9% 5%;
         }
     }
@@ -119,7 +119,7 @@
     }
     .health {
         background-image: url(/wp-content/uploads/2017/07/Health.jpg);
-        @include breakpoint(max-width 1950px) {
+        @include breakpoint(max-width 1876px) {
             padding: 9% 1%;
         }
     }
