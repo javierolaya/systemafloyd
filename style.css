@@ -531,11 +531,15 @@ h3 {
 .classes .class {
   width: 50%;
   padding: 9% 0;
+  min-height: 400px;
   margin: 0 !important; }
   @media (min-width: 980px) {
     .classes .class {
       width: 25%;
       margin-right: 0; } }
+  @media (min-width: 1300px) {
+    .classes .class {
+      min-height: 475px; } }
   .classes .class h3,
   .classes .class .button a {
     text-align: center;
@@ -545,12 +549,18 @@ h3 {
 
 .classes .kids {
   background-image: url(/wp-content/uploads/2017/07/Kids-Classes.jpg); }
+  @media (max-width: 1300px) {
+    .classes .kids {
+      padding: 9% 3%; } }
   @media (max-width: 1876px) {
     .classes .kids {
       padding: 9% 5%; } }
 
 .classes .adult {
   background-image: url(/wp-content/uploads/2017/07/Adult-Classes.jpg); }
+  @media (max-width: 1300px) {
+    .classes .adult {
+      padding: 9% 3%; } }
   @media (max-width: 1876px) {
     .classes .adult {
       padding: 9% 5%; } }
