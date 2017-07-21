@@ -96,11 +96,13 @@
         h4 {
             text-align: center;
             color:white;
+            font-size: 4em;
         }
         
         p {
              text-align: center;
             color:white;
+            font-size: 2em;
         }
     }
     .picture2 {
@@ -113,6 +115,18 @@
         }
         @include breakpoint(1300px 1876px) {
             padding: 9% 5%;
+        }
+        
+                h4 {
+            text-align: center;
+            color:white;
+            font-size: 4em;
+        }
+        
+        p {
+             text-align: center;
+            color:white;
+            font-size: 2em;
         }
     }
     
@@ -135,6 +149,18 @@
         @include breakpoint(1300px 1876px) {
             padding: 9% 5%;
         }
+        
+                h4 {
+            text-align: center;
+            color:white;
+            font-size: 4em;
+        }
+        
+        p {
+             text-align: center;
+            color:white;
+            font-size: 2em;
+        }
     }
     
         
@@ -148,57 +174,5 @@
         }
     }
 }
-
-.testimonials2 {
-    .class {
-        width: 50%;
-        padding: 9% 0%;
-        min-height: 300px;
-        margin: 0 !important;
-        @include breakpoint(min-width 980px) {
-            width: 25%;
-            min-height: 400px;
-            margin-right: 0;
-        }
-        @include breakpoint(min-width 1300px) {
-            min-height: 532px;
-        }
-    }
-    
-    .text_box2 {
-        background-color: $blue;
-        @include breakpoint(min-width 1300px) {
-            padding: 9% 3%;
-        }
-        @include breakpoint(1300px 1876px) {
-            padding: 9% 5%;
-        }
-    }
-    .picture2 {
-        background-image: url(/wp-content/uploads/2017/07/George.png);
-        @include breakpoint(min-width 1300px) {
-            padding: 9% 3%;
-        }
-        @include breakpoint(1300px 1876px) {
-            padding: 9% 5%;
-        }
-    }
-    
-    .text_box3 {
-       background-color: #728472;
-        @include breakpoint(min-width 1300px) {
-            padding: 9% 3%;
-        }
-        @include breakpoint(1300px 1876px) {
-            padding: 9% 5%;
-        }
-    }
-
-    .picture {
-        background-image: url(/wp-content/uploads/2017/07/George.png);
-    }
-
-}
-
 
 
