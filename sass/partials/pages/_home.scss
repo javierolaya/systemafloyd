@@ -97,10 +97,6 @@
         @include breakpoint(min-width 1300px) {
             min-height: 475px;
         }
-        @include breakpoint(max-width 980px) {
-            width: 50% !important;
-        padding: 12% 4%;
-        }
         h3,
         .button a {
             text-align: center;
@@ -136,5 +132,12 @@
         @include breakpoint(max-width 1876px) {
             padding: 9% 1%;
         }
+    }
+}
+
+.et_pb_section .classes .class {
+    @include breakpoint(max-width 980px) {
+        width: 50% !important;
+        padding: 12% 4%;
     }
 }

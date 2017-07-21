@@ -540,10 +540,6 @@ h3 {
   @media (min-width: 1300px) {
     .classes .class {
       min-height: 475px; } }
-  @media (max-width: 980px) {
-    .classes .class {
-      width: 50% !important;
-      padding: 12% 4%; } }
   .classes .class h3,
   .classes .class .button a {
     text-align: center;
@@ -577,6 +573,11 @@ h3 {
   @media (max-width: 1876px) {
     .classes .health {
       padding: 9% 1%; } }
+
+@media (max-width: 980px) {
+  .et_pb_section .classes .class {
+    width: 50% !important;
+    padding: 12% 4%; } }
 
 /*About Page*/
 .Bio {
