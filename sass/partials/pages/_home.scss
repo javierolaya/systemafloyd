@@ -91,7 +91,6 @@
         margin: 0 !important;
         @include breakpoint(min-width 980px) {
             width: 25%;
-            padding: 9% 0;
             margin-right: 0;
         }
         h3,
@@ -105,13 +104,13 @@
     }
     .kids {
         background-image: url(/wp-content/uploads/2017/07/Kids-Classes.jpg);
-        @include breakpoint(min-width 1950px) {
+        @include breakpoint(max-width 1950px) {
             padding: 9% 5%;
         }
     }
     .adult {
         background-image: url(/wp-content/uploads/2017/07/Adult-Classes.jpg);
-        @include breakpoint(min-width 1950px) {
+        @include breakpoint(max-width 1950px) {
             padding: 9% 5%;
         }
     }
@@ -120,7 +119,7 @@
     }
     .health {
         background-image: url(/wp-content/uploads/2017/07/Health.jpg);
-        @include breakpoint(min-width 1950px) {
+        @include breakpoint(max-width 1950px) {
             padding: 9% 1%;
         }
     }
