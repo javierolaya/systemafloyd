@@ -225,7 +225,6 @@ figure {
  * 2. Show the overflow in Edge and IE.
  */
 hr {
-  -webkit-box-sizing: content-box;
   box-sizing: content-box;
   /* 1 */
   height: 0;
@@ -318,7 +317,6 @@ fieldset {
  *    `fieldset` elements in all browsers.
  */
 legend {
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   /* 1 */
   color: inherit;
@@ -344,7 +342,6 @@ textarea {
  */
 [type="checkbox"],
 [type="radio"] {
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   /* 1 */
   padding: 0;
@@ -434,7 +431,10 @@ h1 {
       font-size: 17.6em; } }
 
 h3 {
-  font-size: 4.5em; }
+  font-size: 4em; }
+  @media (min-width: 600px) {
+    h3 {
+      font-size: 4.5em; } }
   @media (min-width: 1100px) {
     h3 {
       font-size: 5.2em; } }
@@ -599,32 +599,71 @@ h3 {
 .title {
   width: 90%;
   margin-top: 2%; }
-  .title h2 {
+  .title h4 {
     font-size: 5em;
     color: #728472;
-    margin-bottom: -3%; }
-  .title h1 {
+    margin-bottom: -3%;
+    text-align: center; }
+  .title h3 {
     font-size: 7em;
-    color: #003D4C; }
+    color: #003D4C;
+    text-align: center; }
 
 .description {
   width: 90%;
   color: #003D4C;
   margin-top: 1%;
-  margin-bottom: 4%; }
+  margin-bottom: 4%;
+  -webkit-column-count: 2;
+  /* Chrome, Safari, Opera */
+  -moz-column-count: 2;
+  /* Firefox */
+  column-count: 2;
+  -webkit-column-gap: 40px;
+  /* Chrome, Safari, Opera */
+  -moz-column-gap: 40px;
+  /* Firefox */
+  column-gap: 40px; }
   .description p {
     line-height: 30px !important; }
 
-.testimonials {
-  width: 24.99%;
-  margin-right: 0; }
-  .testimonials .box1 {
-    background-color: #c3c5c8;
-    height: 573px; }
-    .testimonials .box1 h3 {
-      font-size: 1.5em; }
-  .testimonials .box2 {
-    background-color: #003D4C;
-    height: 573px; }
-    .testimonials .box2 h3 {
-      font-size: 1.5em; }
+.testimonials .class {
+  width: 50%;
+  padding: 9% 0%;
+  min-height: 300px;
+  margin: 0 !important; }
+  @media (min-width: 980px) {
+    .testimonials .class {
+      width: 25%;
+      min-height: 400px;
+      margin-right: 0; } }
+  @media (min-width: 1300px) {
+    .testimonials .class {
+      min-height: 475px; } }
+
+.testimonials .picture {
+  background-image: url(/wp-content/uploads/2017/07/George.png); }
+  @media (min-width: 1300px) {
+    .testimonials .picture {
+      padding: 9% 3%; } }
+  @media (min-width: 1300px) and (max-width: 1876px) {
+    .testimonials .picture {
+      padding: 9% 5%; } }
+
+.testimonials .text_box {
+  background-color: #c3c5c8; }
+  @media (min-width: 1300px) {
+    .testimonials .text_box {
+      padding: 9% 3%; } }
+  @media (min-width: 1300px) and (max-width: 1876px) {
+    .testimonials .text_box {
+      padding: 9% 5%; } }
+
+.testimonials .picture {
+  background-image: url(/wp-content/uploads/2017/07/George.png); }
+
+.testimonials .text_box2 {
+  background-color: #003D4C; }
+  @media (max-width: 1876px) {
+    .testimonials .text_box2 {
+      padding: 9% 1%; } }

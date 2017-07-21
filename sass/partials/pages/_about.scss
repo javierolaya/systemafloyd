@@ -24,15 +24,17 @@
             width: 90%;
             margin-top: 2%;
             
-            h2 {
+            h4 {
             font-size: 5em;
             color:  #728472;
             margin-bottom: -3%;
+            text-align: center;    
             }
             
-            h1 {
-                font-size: 7em;
-                color: $blue;
+            h3 {
+            font-size: 7em;
+            color: $blue;
+            text-align: center;
             }
             
         
@@ -43,6 +45,13 @@
         color:$blue;
         margin-top: 1%;
         margin-bottom: 4%;
+        -webkit-column-count: 2; /* Chrome, Safari, Opera */
+        -moz-column-count: 2; /* Firefox */
+        column-count: 2;
+
+        -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+        -moz-column-gap: 40px; /* Firefox */
+        column-gap: 40px;
     
     p {
         
@@ -51,27 +60,48 @@
 }
 
 .testimonials {
-    
-        width: 24.99%;
-        margin-right: 0;
-        
-    
-    .box1 {
-        background-color: #c3c5c8;
-        height: 573px;
-        
-        
-        h3 {
-            font-size: 1.5em;
+    .class {
+        width: 50%;
+        padding: 9% 0%;
+        min-height: 300px;
+        margin: 0 !important;
+        @include breakpoint(min-width 980px) {
+            width: 25%;
+            min-height: 400px;
+            margin-right: 0;
+        }
+        @include breakpoint(min-width 1300px) {
+            min-height: 475px;
         }
     }
-    
-    .box2 {
+    .picture {
+        background-image: url(/wp-content/uploads/2017/07/George.png);
+        @include breakpoint(min-width 1300px) {
+            padding: 9% 3%;
+        }
+        @include breakpoint(1300px 1876px) {
+            padding: 9% 5%;
+        }
+    }
+    .text_box {
+        background-color: #c3c5c8 ;
+        @include breakpoint(min-width 1300px) {
+            padding: 9% 3%;
+        }
+        @include breakpoint(1300px 1876px) {
+            padding: 9% 5%;
+        }
+    }
+    .picture {
+        background-image: url(/wp-content/uploads/2017/07/George.png);
+    }
+    .text_box2 {
         background-color: $blue;
-        height: 573px;
-        
-        h3 {
-            font-size: 1.5em;
+        @include breakpoint(max-width 1876px) {
+            padding: 9% 1%;
         }
     }
 }
+
+
+

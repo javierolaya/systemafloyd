@@ -48,7 +48,10 @@ h1 {
 h2 {}
 
 h3 {
-    font-size: 4.5em;
+    font-size: 4em;
+    @include breakpoint (min-width 600px) {
+        font-size: 4.5em;
+    }
     @include breakpoint (min-width 1100px) {
         font-size: 5.2em;
     }
