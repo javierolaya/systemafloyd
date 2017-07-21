@@ -689,6 +689,15 @@ h3 {
     .testimonials .text_box3 {
       padding: 9% 5%; } }
 
+.testimonials .picture4 {
+  background-image: url(/wp-content/uploads/2017/07/George.png); }
+  @media (min-width: 1300px) {
+    .testimonials .picture4 {
+      padding: 9% 3%; } }
+  @media (min-width: 1300px) and (max-width: 1876px) {
+    .testimonials .picture4 {
+      padding: 9% 5%; } }
+
 .testimonials2 .class {
   width: 50%;
   padding: 9% 0%;
