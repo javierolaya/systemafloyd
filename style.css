@@ -658,6 +658,12 @@ h3 {
   @media (min-width: 1300px) and (max-width: 1876px) {
     .testimonials .text_box {
       padding: 9% 5%; } }
+  .testimonials .text_box h4 {
+    text-align: center;
+    color: white; }
+  .testimonials .text_box p {
+    text-align: center;
+    color: white; }
 
 .testimonials .picture2 {
   background-image: url(/wp-content/uploads/2017/07/George.png); }
