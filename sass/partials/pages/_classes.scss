@@ -5,6 +5,7 @@
     .bluebox {
         background-color: $blue;
         
+        
           h2 {
             text-align: center;
             color:white;
@@ -16,5 +17,14 @@
             color:white;
             font-size: 2em;
         }
+    }
+    
+    .practical {
+        
+    padding: 7% !important;
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-image: url(/wp-content/uploads/2017/07/IMG_3720.png);
+        
     }
 }

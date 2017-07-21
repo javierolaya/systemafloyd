@@ -733,3 +733,9 @@ h3 {
     text-align: center;
     color: white;
     font-size: 2em; }
+
+.systema .practical {
+  padding: 7% !important;
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-image: url(/wp-content/uploads/2017/07/IMG_3720.png); }
