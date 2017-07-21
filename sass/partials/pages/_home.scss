@@ -27,20 +27,33 @@
     }
 }
 
+
 /* Styles for the Home page */
+
 .hero {
     .systema {
         padding: 9% 0 11%;
         h1 {
-            max-width: 50%;
+            max-width: 90%;
             margin-bottom: 2%;
             line-height: .8;
             color: #588692;
+            @include breakpoint(min-width 980px) {
+                max-width: 70%;
+            }
+            @include breakpoint(min-width 1420px) {
+                max-width: 50%;
+            }
         }
-        p
-        {
-            max-width: 30%;
+        p {
+            max-width: 80%;
             color: #FFF;
+            @include breakpoint(min-width 980px) {
+                max-width: 50%;
+            }
+            @include breakpoint(min-width 1420px) {
+                max-width: 30%;
+            }
         }
         h1,
         p {
@@ -56,33 +69,59 @@
     background-position: center right;
     background-image: url(/wp-content/uploads/2017/07/Tom-Vlad.jpg);
     .approach {
-        width: 25%;
+        width: 37%;
+        padding: 2%;
         color: $blue;
+        background-color: rgba(#FFF, .8);
+        @include breakpoint(min-width 1200px) {
+            width: 30%;
+        }
+        @include breakpoint(min-width 1500px) {
+            width: 25%;
+            padding: 0;
+            background-color: rgba(#FFF, 0);
+        }
     }
 }
 
 .classes {
     .class {
-        width: 25%;
+        width: 50%;
         padding: 9% 0;
-        margin-right: 0;
-        h3, .button a
-        {
+        margin: 0 !important;
+        @include breakpoint(min-width 980px) {
+            width: 25%;
+            padding: 9% 0;
+            margin-right: 0;
+        }
+        h3,
+        .button a {
             text-align: center;
             color: #FFF;
         }
-        .button a
-        {
+        .button a {
             background-color: $red;
         }
     }
     .kids {
         background-image: url(/wp-content/uploads/2017/07/Kids-Classes.jpg);
+        @include breakpoint(min-width 1950px) {
+            padding: 9% 5%;
+        }
     }
     .adult {
-        background-image: url(/wp-content/uploads/2017/07/Adult-Classes.jpg);}
+        background-image: url(/wp-content/uploads/2017/07/Adult-Classes.jpg);
+        @include breakpoint(min-width 1950px) {
+            padding: 9% 5%;
+        }
+    }
     .corporate {
-        background-image: url(/wp-content/uploads/2017/07/Private-Classes.jpg);}
+        background-image: url(/wp-content/uploads/2017/07/Private-Classes.jpg);
+    }
     .health {
-        background-image: url(/wp-content/uploads/2017/07/Health.jpg);}    
+        background-image: url(/wp-content/uploads/2017/07/Health.jpg);
+        @include breakpoint(min-width 1950px) {
+            padding: 9% 1%;
+        }
+    }
 }
