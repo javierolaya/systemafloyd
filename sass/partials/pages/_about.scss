@@ -74,7 +74,7 @@
             min-height: 532px;
         }
     }
-    .picture {
+    .picture1 {
         background-image: url(/wp-content/uploads/2017/07/George.png);
         @include breakpoint(min-width 1300px) {
             padding: 9% 3%;
@@ -92,11 +92,32 @@
             padding: 9% 5%;
         }
     }
-    .picture {
+    .picture2 {
         background-image: url(/wp-content/uploads/2017/07/George.png);
     }
     .text_box2 {
        background-color: $blue;
+        @include breakpoint(min-width 1300px) {
+            padding: 9% 3%;
+        }
+        @include breakpoint(1300px 1876px) {
+            padding: 9% 5%;
+        }
+    }
+    
+    
+    .picture3 {
+        background-image: url(/wp-content/uploads/2017/07/George.png);
+        @include breakpoint(min-width 1300px) {
+            padding: 9% 3%;
+        }
+        @include breakpoint(1300px 1876px) {
+            padding: 9% 5%;
+        }
+    }
+    
+    .text_box3 {
+       background-color: #728472;
         @include breakpoint(min-width 1300px) {
             padding: 9% 3%;
         }

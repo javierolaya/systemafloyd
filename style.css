@@ -641,13 +641,13 @@ h3 {
     .testimonials .class {
       min-height: 532px; } }
 
-.testimonials .picture {
+.testimonials .picture1 {
   background-image: url(/wp-content/uploads/2017/07/George.png); }
   @media (min-width: 1300px) {
-    .testimonials .picture {
+    .testimonials .picture1 {
       padding: 9% 3%; } }
   @media (min-width: 1300px) and (max-width: 1876px) {
-    .testimonials .picture {
+    .testimonials .picture1 {
       padding: 9% 5%; } }
 
 .testimonials .text_box {
@@ -659,7 +659,7 @@ h3 {
     .testimonials .text_box {
       padding: 9% 5%; } }
 
-.testimonials .picture {
+.testimonials .picture2 {
   background-image: url(/wp-content/uploads/2017/07/George.png); }
 
 .testimonials .text_box2 {
@@ -669,6 +669,24 @@ h3 {
       padding: 9% 3%; } }
   @media (min-width: 1300px) and (max-width: 1876px) {
     .testimonials .text_box2 {
+      padding: 9% 5%; } }
+
+.testimonials .picture3 {
+  background-image: url(/wp-content/uploads/2017/07/George.png); }
+  @media (min-width: 1300px) {
+    .testimonials .picture3 {
+      padding: 9% 3%; } }
+  @media (min-width: 1300px) and (max-width: 1876px) {
+    .testimonials .picture3 {
+      padding: 9% 5%; } }
+
+.testimonials .text_box3 {
+  background-color: #728472; }
+  @media (min-width: 1300px) {
+    .testimonials .text_box3 {
+      padding: 9% 3%; } }
+  @media (min-width: 1300px) and (max-width: 1876px) {
+    .testimonials .text_box3 {
       padding: 9% 5%; } }
 
 .testimonials2 .class {
