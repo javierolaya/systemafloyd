@@ -771,24 +771,25 @@ h3 {
 
 .advantages {
   background-color: #ededee;
-  text-align: center; }
-  .advantages .title h2 {
-    color: #003D4C;
-    font-size: 8em;
-    text-align: center;
-    text-transform: uppercase; }
-  .advantages .title p {
-    padding: 1% 19% 2% !important;
-    font-size: 2em;
-    color: #003D4C;
-    text-align: center;
-    line-height: 2; }
+  text-align: center;
+  padding: 2% 18% 2% !important; }
+  .advantages .title {
+    margin-bottom: 0 !important; }
+    .advantages .title h2 {
+      color: #003D4C;
+      font-size: 8em;
+      text-transform: uppercase; }
+    .advantages .title p {
+      padding: 1% 19% 2% !important;
+      font-size: 2em;
+      color: #003D4C;
+      line-height: 2; }
   .advantages .list {
     background-color: #ededee;
-    text-align: center;
     padding-right: 0%;
     padding-left: 10%;
     padding-bottom: 2%;
+    margin-top: -4%;
     -webkit-column-count: 3;
     -moz-column-count: 3;
     column-count: 3;
