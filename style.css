@@ -725,7 +725,7 @@ h3 {
 /*Kids Classes Page*/
 .systema .bluebox {
   background-color: #003D4C;
-  padding: 7.5% 14.5%;
+  padding: 4.36% 14.5%;
   margin-right: -127px; }
   .systema .bluebox h2 {
     color: white;
@@ -736,13 +736,19 @@ h3 {
     line-height: 1.5; }
 
 .systema #practical_bg {
-  padding: 10% !important;
+  padding: 3.41% !important;
   background-repeat: no-repeat;
   background-position: center right;
   background-image: url(/wp-content/uploads/2017/07/IMG_3720.png); }
   .systema #practical_bg .example {
     background-color: white;
-    padding: 13.5%;
-    margin: 0 0% 0 8%;
+    padding: 9.9%;
+    margin: 7% 12% 0% 20%;
     opacity: 0.5;
     text-align: center; }
+    .systema #practical_bg .example h5 {
+      color: #003D4C;
+      font-size: 2.6em; }
+    .systema #practical_bg .example p {
+      font-size: 2em;
+      color: #003D4C; }
