@@ -38,7 +38,7 @@
         background-color: white; 
         padding: 9.9%;
         margin: 7% 12% 0% 20%;
-        opacity: 0.5;
+        opacity: 0.8;
         text-align: center;
         
             
@@ -55,5 +55,23 @@
         }
     }
     
+    .how {
+        background-color: white;
+        padding: 4% 25%;
+        
+        h2 {
+            
+            color: $blue;
+            font-size: 8em;
+            text-align: center;
+        }
+        
+        p {
+            font-size:2em;
+            color: $blue;
+            text-align: center;
+            
+        }
+    }
    
 }

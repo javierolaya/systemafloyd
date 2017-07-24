@@ -746,7 +746,7 @@ h3 {
     background-color: white;
     padding: 9.9%;
     margin: 7% 12% 0% 20%;
-    opacity: 0.5;
+    opacity: 0.8;
     text-align: center; }
     .systema #practical_bg .example h5 {
       color: #003D4C;
@@ -754,3 +754,15 @@ h3 {
     .systema #practical_bg .example p {
       font-size: 2em;
       color: #003D4C; }
+
+.systema .how {
+  background-color: white;
+  padding: 4% 25%; }
+  .systema .how h2 {
+    color: #003D4C;
+    font-size: 8em;
+    text-align: center; }
+  .systema .how p {
+    font-size: 2em;
+    color: #003D4C;
+    text-align: center; }
