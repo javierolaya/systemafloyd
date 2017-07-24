@@ -81,12 +81,11 @@
     .advantages {
         background-color: #ededee;
         text-align: center;
-        padding: 2% 18% 2% !important;
-        
+       
         .title {
             
              h2 {
-            
+            padding: 2% 16% 2% !important;
             color: $blue;
             font-size: 8em;
             text-align: center;
@@ -95,6 +94,8 @@
         }
             
              p {
+                 
+            padding: 2% 19% 2% !important;     
             font-size:2em;
             color: $blue;
             text-align: center;

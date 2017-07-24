@@ -771,15 +771,16 @@ h3 {
 
 .advantages {
   background-color: #ededee;
-  text-align: center;
-  padding: 2% 18% 2% !important; }
+  text-align: center; }
   .advantages .title h2 {
+    padding: 2% 16% 2% !important;
     color: #003D4C;
     font-size: 8em;
     text-align: center;
     padding-bottom: 2%;
     text-transform: uppercase; }
   .advantages .title p {
+    padding: 2% 19% 2% !important;
     font-size: 2em;
     color: #003D4C;
     text-align: center;
