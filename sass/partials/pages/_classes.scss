@@ -105,7 +105,6 @@
     .list {
         
         padding: 2% 19% 2% !important;   
-        font-size: 3em;
         color: $blue;
         -webkit-column-count: 3; /* Chrome, Safari, Opera */
         -moz-column-count: 3; /* Firefox */
@@ -118,4 +117,7 @@
             }    
             
         
+        p {
+            font-size: 3em;
+        }
 }

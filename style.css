@@ -785,7 +785,6 @@ h3 {
     line-height: 2; }
   .advantages .list {
     padding: 2% 19% 2% !important;
-    font-size: 3em;
     color: #003D4C;
     -webkit-column-count: 3;
     /* Chrome, Safari, Opera */
@@ -797,3 +796,5 @@ h3 {
     -moz-column-gap: 40px;
     /* Firefox */
     column-gap: 55px; }
+  .advantages p {
+    font-size: 3em; }
