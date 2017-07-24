@@ -768,3 +768,18 @@ h3 {
     color: #003D4C;
     text-align: center;
     line-height: 2; }
+
+.advantages {
+  background-color: #ededee;
+  text-align: center; }
+  .advantages .title h2 {
+    color: #003D4C;
+    font-size: 8em;
+    text-align: center;
+    padding-bottom: 2%;
+    text-transform: uppercase; }
+  .advantages .title p {
+    font-size: 2em;
+    color: #003D4C;
+    text-align: center;
+    line-height: 2; }

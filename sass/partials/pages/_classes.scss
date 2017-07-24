@@ -78,3 +78,28 @@
         }
     }
    
+    .advantages {
+        background-color: #ededee;
+        text-align: center;
+        
+        .title {
+            
+             h2 {
+            
+            color: $blue;
+            font-size: 8em;
+            text-align: center;
+            padding-bottom:2%;
+           text-transform: uppercase;
+        }
+            
+             p {
+            font-size:2em;
+            color: $blue;
+            text-align: center;
+            line-height: 2;
+            
+        }
+            
+        }
+}
