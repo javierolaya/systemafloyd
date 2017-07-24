@@ -725,7 +725,7 @@ h3 {
 /*Kids Classes Page*/
 .systema .bluebox {
   background-color: #003D4C;
-  padding: 4.36% 14.5%;
+  padding: 4.29% 14.5%;
   margin-right: -127px; }
   .systema .bluebox h2 {
     color: white;
@@ -786,14 +786,15 @@ h3 {
   .advantages .list {
     background-color: #ededee;
     text-align: center;
-    /*padding: 2% 19% 2% !important;*/
-    /* color: $blue;*/
-    /* -webkit-column-count: 3; /* Chrome, Safari, Opera */
-    /* -moz-column-count: 3; /* Firefox */
-    /* column-count: 3;*/
-    /*-webkit-column-gap: 40px; /* Chrome, Safari, Opera */
-    /*-moz-column-gap: 40px; /* Firefox */
-    /*column-gap: 55px;*/ }
-  .advantages p {
-    font-size: 2em;
-    color: #003D4C; }
+    padding-right: 0%;
+    padding-left: 10%;
+    padding-bottom: 2%;
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    -webkit-column-gap: 40px;
+    -moz-column-gap: 40px;
+    column-gap: 55px; }
+    .advantages .list p {
+      font-size: 2em;
+      color: #003D4C; }
