@@ -81,6 +81,7 @@
     .advantages {
         background-color: #ededee;
         text-align: center;
+        padding: 2% 18% 2% !important;
         
         .title {
             
@@ -90,7 +91,7 @@
             font-size: 8em;
             text-align: center;
             padding-bottom:2%;
-           text-transform: uppercase;
+            text-transform: uppercase;
         }
             
              p {
@@ -100,6 +101,19 @@
             line-height: 2;
             
         }
+            
+    .list {
+        font-size:3em;
+        color: $blue;
+        -webkit-column-count: 3; /* Chrome, Safari, Opera */
+        -moz-column-count: 3; /* Firefox */
+        column-count: 3;
+
+        -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+        -moz-column-gap: 40px; /* Firefox */
+        column-gap: 55px;
+
+            }    
             
         }
 }

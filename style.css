@@ -771,7 +771,8 @@ h3 {
 
 .advantages {
   background-color: #ededee;
-  text-align: center; }
+  text-align: center;
+  padding: 2% 18% 2% !important; }
   .advantages .title h2 {
     color: #003D4C;
     font-size: 8em;
@@ -783,3 +784,16 @@ h3 {
     color: #003D4C;
     text-align: center;
     line-height: 2; }
+  .advantages .title .list {
+    font-size: 3em;
+    color: #003D4C;
+    -webkit-column-count: 3;
+    /* Chrome, Safari, Opera */
+    -moz-column-count: 3;
+    /* Firefox */
+    column-count: 3;
+    -webkit-column-gap: 40px;
+    /* Chrome, Safari, Opera */
+    -moz-column-gap: 40px;
+    /* Firefox */
+    column-gap: 55px; }
