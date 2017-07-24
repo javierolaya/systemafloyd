@@ -735,8 +735,12 @@ h3 {
     font-size: 2em;
     line-height: 1.5; }
 
-.systema .practical {
+.systema #practical_bg {
   padding: 21% !important;
   background-repeat: no-repeat;
   background-position: center right;
   background-image: url(/wp-content/uploads/2017/07/IMG_3720.png); }
+  .systema #practical_bg .practical {
+    background-color: white;
+    padding: 3% 7%;
+    margin: 5.5% 20% 0 40%; }

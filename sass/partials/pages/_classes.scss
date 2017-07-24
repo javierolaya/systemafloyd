@@ -1,5 +1,6 @@
 /*Kids Classes Page*/
 
+
 .systema {
     
     .bluebox {
@@ -23,12 +24,20 @@
         }
     }
     
-    .practical {
+    #practical_bg {
         
     padding: 21% !important;
     background-repeat: no-repeat;
     background-position: center right;
     background-image: url(/wp-content/uploads/2017/07/IMG_3720.png);
         
+        
+    .practical  {   
+        background-color: white; 
+        padding: 3% 7%;
+        margin: 5.5% 20% 0 40%;    
+        }
     }
+    
+   
 }
