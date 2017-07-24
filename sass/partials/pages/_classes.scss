@@ -5,7 +5,7 @@
     
     .bluebox {
         background-color: $blue;
-        padding: 7.3% 14.5%;
+        padding: 7.5% 14.5%;
         margin-right: -127px;
 
         
@@ -26,7 +26,7 @@
     
     #practical_bg {
         
-    padding: 21% !important;
+    padding: 10% !important;
     background-repeat: no-repeat;
     background-position: center right;
     background-image: url(/wp-content/uploads/2017/07/IMG_3720.png);
@@ -34,8 +34,10 @@
         
     .example  {   
         background-color: white; 
-        padding: 3% 7%;
-        margin: 5.5% 20% 0 40%;    
+        padding: 13.5%;
+        margin: 0 0% 0 8%;
+        opacity: 0.5;
+        text-align: center;
         }
     }
     
