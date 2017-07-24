@@ -773,19 +773,19 @@ h3 {
   background-color: #ededee;
   text-align: center; }
   .advantages .title h2 {
-    padding: 2% 16% 2% !important;
     color: #003D4C;
     font-size: 8em;
     text-align: center;
     padding-bottom: 2%;
     text-transform: uppercase; }
   .advantages .title p {
-    padding: 2% 19% 2% !important;
+    padding: 1% 19% 2% !important;
     font-size: 2em;
     color: #003D4C;
     text-align: center;
     line-height: 2; }
   .advantages .title .list {
+    padding: 2% 19% 2% !important;
     font-size: 3em;
     color: #003D4C;
     -webkit-column-count: 3;

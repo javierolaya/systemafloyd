@@ -85,7 +85,6 @@
         .title {
             
              h2 {
-            padding: 2% 16% 2% !important;
             color: $blue;
             font-size: 8em;
             text-align: center;
@@ -95,7 +94,7 @@
             
              p {
                  
-            padding: 2% 19% 2% !important;     
+            padding: 1% 19% 2% !important;     
             font-size:2em;
             color: $blue;
             text-align: center;
@@ -104,7 +103,9 @@
         }
             
     .list {
-        font-size:3em;
+        
+        padding: 2% 19% 2% !important;   
+        font-size: 3em;
         color: $blue;
         -webkit-column-count: 3; /* Chrome, Safari, Opera */
         -moz-column-count: 3; /* Firefox */
