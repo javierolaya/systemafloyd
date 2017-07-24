@@ -784,17 +784,13 @@ h3 {
     text-align: center;
     line-height: 2; }
   .advantages .list {
-    padding: 2% 19% 2% !important;
+    /*padding: 2% 19% 2% !important;*/
     color: #003D4C;
-    -webkit-column-count: 3;
-    /* Chrome, Safari, Opera */
-    -moz-column-count: 3;
-    /* Firefox */
-    column-count: 3;
-    -webkit-column-gap: 40px;
-    /* Chrome, Safari, Opera */
-    -moz-column-gap: 40px;
-    /* Firefox */
-    column-gap: 55px; }
+    /* -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    /* -moz-column-count: 3; /* Firefox */
+    /* column-count: 3;*/
+    /*-webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+    /*-moz-column-gap: 40px; /* Firefox */
+    /*column-gap: 55px;*/ }
   .advantages p {
-    font-size: 3em; }
+    font-size: 2em; }

@@ -104,20 +104,20 @@
             
     .list {
         
-        padding: 2% 19% 2% !important;   
+        /*padding: 2% 19% 2% !important;*/   
         color: $blue;
-        -webkit-column-count: 3; /* Chrome, Safari, Opera */
-        -moz-column-count: 3; /* Firefox */
-        column-count: 3;
+       /* -webkit-column-count: 3; /* Chrome, Safari, Opera */
+       /* -moz-column-count: 3; /* Firefox */
+       /* column-count: 3;*/
 
-        -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
-        -moz-column-gap: 40px; /* Firefox */
-        column-gap: 55px;
+        /*-webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+        /*-moz-column-gap: 40px; /* Firefox */
+        /*column-gap: 55px;*/
 
             }    
             
         
         p {
-            font-size: 3em;
+            font-size: 2em;
         }
 }
