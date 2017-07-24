@@ -724,15 +724,15 @@ h3 {
 
 /*Kids Classes Page*/
 .systema .bluebox {
-  background-color: #003D4C; }
+  background-color: #003D4C;
+  padding: 6.4% 11.5%; }
   .systema .bluebox h2 {
-    text-align: center;
     color: white;
     font-size: 8em; }
   .systema .bluebox p {
-    text-align: center;
     color: white;
-    font-size: 2em; }
+    font-size: 2em;
+    line-height: 1.5; }
 
 .systema .practical {
   padding: 21% !important;

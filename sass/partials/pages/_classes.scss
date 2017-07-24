@@ -4,18 +4,20 @@
     
     .bluebox {
         background-color: $blue;
+        padding: 6.4% 11.5%;
         
         
           h2 {
-            text-align: center;
+            
             color:white;
             font-size: 8em;
         }
         
         p {
-             text-align: center;
+            
             color:white;
             font-size: 2em;
+            line-height: 1.5;
         }
     }
     
