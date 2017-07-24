@@ -784,6 +784,8 @@ h3 {
     text-align: center;
     line-height: 2; }
   .advantages .list {
+    background-color: #ededee;
+    text-align: center;
     /*padding: 2% 19% 2% !important;*/
     /* color: $blue;*/
     /* -webkit-column-count: 3; /* Chrome, Safari, Opera */
