@@ -736,8 +736,10 @@ h3 {
     line-height: 1.5; }
 
 .systema #practical_bg {
+  position: relative;
   padding: 3.41% !important;
   background-repeat: no-repeat;
+  background-size: cover;
   background-position: center right;
   background-image: url(/wp-content/uploads/2017/07/IMG_3720.png); }
   .systema #practical_bg .example {
