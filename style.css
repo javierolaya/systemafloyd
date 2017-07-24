@@ -753,7 +753,8 @@ h3 {
       font-size: 2.6em; }
     .systema #practical_bg .example p {
       font-size: 2em;
-      color: #003D4C; }
+      color: #003D4C;
+      line-height: 2; }
 
 .how {
   background-color: white;
@@ -761,7 +762,8 @@ h3 {
   .how h2 {
     color: #003D4C;
     font-size: 8em;
-    text-align: center; }
+    text-align: center;
+    padding-bottom: 2%; }
   .how p {
     font-size: 2em;
     color: #003D4C;
