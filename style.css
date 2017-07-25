@@ -830,6 +830,7 @@ h3 {
 .directions {
   background-color: #cfcfcf; }
   .directions h1 {
-    color: white; }
+    color: white;
+    font-size: 8em; }
   .directions p {
     color: #003D4C; }
