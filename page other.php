@@ -21,7 +21,7 @@ $is_page_builder_used = et_pb_is_pagebuilder_used( get_the_ID() );
 			<?php while ( have_posts() ) : the_post(); ?>
                 <div class="header" style="background-image:url(<?php the_post_thumbnail_url(); ?>)">
                     <h2><?php the_title(); ?></h2>
-                    <h5><a href="http://systemafloyd.com">Home</a> / <?php the_title(); ?></h5>
+                    <h5><a href="http://systemafloyd.com">Home / </a> <?php the_title(); ?></h5>
                 </div>
 				<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
