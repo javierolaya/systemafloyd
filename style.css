@@ -462,7 +462,7 @@ h3 {
     background: yellow; }
 
 #main-content .header {
-  background-position: center;
+  background-position: center right;
   background-repeat: no-repeat;
   padding: 7%; }
   #main-content .header h2 {
@@ -747,7 +747,7 @@ h3 {
 
 .systema .bluebox {
   background-color: #003D4C;
-  padding: 4.6% 13.4%;
+  padding: 4.54% 13.4%;
   margin-right: 0; }
   .systema .bluebox h2 {
     color: white;
