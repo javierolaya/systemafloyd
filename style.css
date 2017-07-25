@@ -723,17 +723,20 @@ h3 {
       padding: 9% 5%; } }
 
 /*Kids Classes Page*/
-.systema .bluebox {
-  background-color: #003D4C;
-  padding: 6.44% 15.4%;
-  margin-right: -135px; }
-  .systema .bluebox h2 {
-    color: white;
-    font-size: 8em; }
-  .systema .bluebox p {
-    color: white;
-    font-size: 2em;
-    line-height: 1.5; }
+.systema .children {
+  margin-right: 0;
+  width: 50%; }
+  .systema .children .bluebox {
+    background-color: #003D4C;
+    padding: 6.44% 15.4%;
+    margin-right: -135px; }
+    .systema .children .bluebox h2 {
+      color: white;
+      font-size: 8em; }
+    .systema .children .bluebox p {
+      color: white;
+      font-size: 2em;
+      line-height: 1.5; }
 
 .systema #practical_bg {
   position: relative;
@@ -772,7 +775,7 @@ h3 {
 .advantages {
   background-color: #ededee;
   text-align: center;
-  padding: 2% 18% 2% !important; }
+  padding: 2% 10% 2% !important; }
   .advantages .systema_children {
     margin-bottom: 0 !important; }
     .advantages .systema_children h2 {
@@ -795,4 +798,5 @@ h3 {
     -moz-column-gap: 40px;
     column-gap: 124px; }
     .advantages .list p {
+      font-size: 3em;
       color: #003D4C; }
