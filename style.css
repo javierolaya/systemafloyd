@@ -462,6 +462,7 @@ h3 {
     background: yellow; }
 
 #main-content .header {
+  background-position: center;
   background-repeat: no-repeat;
   padding: 7%; }
   #main-content .header h2 {
