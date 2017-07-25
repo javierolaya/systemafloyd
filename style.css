@@ -726,17 +726,18 @@ h3 {
 .systema .children {
   margin-right: 0;
   width: 50%; }
-  .systema .children .bluebox {
-    background-color: #003D4C;
-    padding: 6.44% 15.4%;
-    margin-right: -135px; }
-    .systema .children .bluebox h2 {
-      color: white;
-      font-size: 8em; }
-    .systema .children .bluebox p {
-      color: white;
-      font-size: 2em;
-      line-height: 1.5; }
+
+.systema .bluebox {
+  background-color: #003D4C;
+  padding: 6.44% 15.4%;
+  margin-right: -135px; }
+  .systema .bluebox h2 {
+    color: white;
+    font-size: 8em; }
+  .systema .bluebox p {
+    color: white;
+    font-size: 2em;
+    line-height: 1.5; }
 
 .systema #practical_bg {
   position: relative;
