@@ -827,15 +827,15 @@ h3 {
 /* ==========================================================================
    Contact Page 
    ========================================================================== */
-.map {
+.contact .map {
   margin-right: 0;
   width: 50%; }
 
-.directions {
+.contact .directions {
   background-color: #cfcfcf;
   padding: 8%; }
-  .directions h1 {
+  .contact .directions h1 {
     color: white;
     font-size: 8em; }
-  .directions p {
+  .contact .directions p {
     color: #003D4C; }
