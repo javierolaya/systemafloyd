@@ -41,7 +41,16 @@
         
     }
     
-    h5 {
+    h5  {
+        font-size: 2.5em;
+        text-align: end;
+        color: red;
+        text-transform: uppercase;
+     
+         
+    }
+    
+    h5 a {
         font-size: 2.5em;
         text-align: end;
         color: $blue;
