@@ -828,7 +828,11 @@ h3 {
    Contact Page 
    ========================================================================== */
 .directions {
-  background-color: #cfcfcf; }
+  background-color: #cfcfcf;
+  padding: 9%; }
+  .directions .map {
+    margin-right: 0;
+    width: 50%; }
   .directions h1 {
     color: white;
     font-size: 8em; }
