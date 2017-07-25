@@ -801,4 +801,4 @@ h3 {
     .advantages .list p {
       font-size: 3em;
       color: #003D4C;
-      padding-bottom: 0em; }
+      padding-bottom: 0em !important; }
