@@ -841,7 +841,7 @@ h3 {
   .contact .directions h1 {
     color: white;
     font-size: 8em;
-    TEXT-ALIGN: right; }
+    text-align: right; }
   .contact .directions p {
     color: #003D4C;
     TEXT-ALIGN: right;
