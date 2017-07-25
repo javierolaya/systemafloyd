@@ -840,9 +840,12 @@ h3 {
   padding: 8%; }
   .contact .directions h1 {
     color: white;
-    font-size: 8em; }
+    font-size: 8em;
+    TEXT-ALIGN: right; }
   .contact .directions p {
-    color: #003D4C; }
+    color: #003D4C;
+    TEXT-ALIGN: right;
+    line-height: 1.5; }
   .contact .directions .button a {
     text-align: center;
     color: #FFF; }
