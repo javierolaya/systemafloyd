@@ -25,3 +25,26 @@
         background: yellow;
     }
 }
+
+#header {
+    
+    background-repeat: no-repeat;
+    padding: 7.7%;
+    
+    h2 {
+    font-size: 10em;
+    color: $blue;
+    text-align: end;
+        
+    }
+    
+    h5 {
+        font-size: 2.5em;
+        text-align: end;
+        color: $blue;
+     
+        h5:hover {
+            color:red;
+        }    
+    }
+}

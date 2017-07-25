@@ -461,6 +461,20 @@ h3 {
     border-radius: 30px;
     background: yellow; }
 
+#header {
+  background-repeat: no-repeat;
+  padding: 7.7%; }
+  #header h2 {
+    font-size: 10em;
+    color: #003D4C;
+    text-align: end; }
+  #header h5 {
+    font-size: 2.5em;
+    text-align: end;
+    color: #003D4C; }
+    #header h5 h5:hover {
+      color: red; }
+
 /* ==========================================================================
    Home page
    ========================================================================== */
@@ -740,6 +754,7 @@ h3 {
     line-height: 1.5; }
 
 .systema #practical_bg {
+  width: 50%;
   position: relative;
   padding: 5.1% !important;
   background-repeat: no-repeat;
