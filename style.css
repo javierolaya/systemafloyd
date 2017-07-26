@@ -869,7 +869,8 @@ h3 {
       text-align: center;
       color: #FFF;
       font-size: 2em;
+      font-family: "Roboto", sans-serif;
       background-color: red;
-      padding: 1% 7%;
+      padding: .5% 7%;
       border-radius: 30px;
       border: none; }
