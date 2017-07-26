@@ -856,3 +856,8 @@ h3 {
   font-size: 8em;
   color: #003D4C;
   padding: 4%; }
+
+.form .layout .frm_submit {
+  text-align: center;
+  color: #FFF;
+  background-color: #E4002B; }
