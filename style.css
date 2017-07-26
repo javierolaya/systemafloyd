@@ -855,11 +855,7 @@ h3 {
 .form .questions h1 {
   font-size: 8em;
   color: #003D4C;
-  padding: 4%; }
+  padding: 4% 4% 2% 4%; }
 
-.form .layout .frm_button_submit {
-  text-align: center;
-  color: #FFF;
-  background-color: #E4002B;
-  padding: 1% 7%;
-  border-radius: 30px; }
+.form .layout {
+  padding: 0 5% 0 4%; }
