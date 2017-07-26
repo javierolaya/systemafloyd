@@ -864,7 +864,9 @@ h3 {
 .form .layout {
   padding: 0 5% 0 4%; }
   .form .layout .frm_submit {
-    text-align: center; }
+    text-align: center;
+    padding-bottom: 2%;
+    padding-top: 2%; }
     .form .layout .frm_submit .frm_button_submit {
       text-align: center;
       color: #FFF;
