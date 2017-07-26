@@ -860,4 +860,6 @@ h3 {
 .form .layout .frm_button_submit {
   text-align: center;
   color: #FFF;
-  background-color: #E4002B; }
+  background-color: #E4002B;
+  padding: 1% 7%;
+  border-radius: 30px; }
