@@ -857,7 +857,7 @@ h3 {
   color: #003D4C;
   padding: 4%; }
 
-.form .layout .frm_submit a {
+.form .layout .frm_button_submit {
   text-align: center;
   color: #FFF;
   background-color: #E4002B; }
