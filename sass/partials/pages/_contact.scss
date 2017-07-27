@@ -1,125 +1,101 @@
 /* ==========================================================================
    Contact Page 
    ========================================================================== */
-.contact {  
 
-.map {
+.contact {
+    .map {
         margin-right: 0;
         width: 50%;
     }
-    
-.become {
+    .become {
         margin-right: 0;
         width: 50%;
+    }
+    .directions {
+        min-height: 400px;
+        background-color: #cfcfcf;
+        padding: 4.6%;
+        h1 {
+            color: white;
+            font-size: 8em;
+            text-align: right;
         }
-
-.directions {
-    
-   
-    min-height: 400px;
-    background-color: #cfcfcf;
-    padding: 4.6%;
-    
-    h1 {
-        color:white;
-        font-size: 8em;
-        text-align: right;
-       }
-    
-    p {
-        color: $blue;
-        TEXT-ALIGN: right;
-        line-height: 1.5;
-      }
-    
-      .button a {
+        p {
+            color: $blue;
+            TEXT-ALIGN: right;
+            line-height: 1.5;
+        }
+        .button a {
             text-align: center;
             color: #FFF;
-                }
+        }
         .button a {
             background-color: $red;
-                  }
-            }
-    
-   
+        }
+    }
 }
 
 .form {
-    
     .title_box {
         margin-bottom: 0;
-        
     }
-    
- .questions {
-     
-     h1 {
-         font-size: 8em;
-         color: $blue;
-         padding: 2% 4% 0 4%;
-         margin-bottom: 0;
+    .questions {
+        h1 {
+            font-size: 8em;
+            color: $blue;
+            padding: 2% 4% 0 4%;
+            margin-bottom: 0;
         }
-            }
-    
+    }
     .layout {
-        
         padding: 0 5% 0 4%;
-        
-        .frm_submit {   
+        .frm_submit {
             text-align: center;
             padding-bottom: 2%;
             padding-top: 2%;
-   
-     .frm_button_submit {
-            text-align: center;
-            color: #FFF;
-            font-size: 2.3em;
-            font-family:$robo;
-            background-color: red;
-            padding: .3% 3%;
-            border-radius: 30px;
-            border: none;
-}   
+            .frm_button_submit {
+                text-align: center;
+                color: #FFF;
+                font-size: 2.3em;
+                font-family: $robo;
+                background-color: red;
+                padding: .3% 3%;
+                border-radius: 30px;
+                border: none;
+            }
         }
     }
-    
     .frm_style_formidable-style.with_frm_style input[type=text] {
-           border-bottom: solid #44707b;
-           border-top: none;
-           border-right: none;
-           border-left: none;
-           box-shadow: none;
-           width: 100%;
-           max-width: 100%;
-           padding: 16px 10px;
-           background-image: none;
-           font-size: 2.3em;
-           font-family:$robo;
-           color: #c3c5c8;
-        
+        border-bottom: solid #44707b;
+        border-top: none;
+        border-radius: 0;
+        border-right: none;
+        border-left: none;
+        box-shadow: none;
+        width: 100%;
+        max-width: 100%;
+        padding: 16px 10px;
+        background-image: none;
+        font-size: 2.3em;
+        font-family: $robo;
+        color: #c3c5c8;
     }
-    
-    .frm_style_formidable-style.with_frm_style .frm_form_field :invalid  {
-         border-bottom: solid #44707b;
-           border-top: none;
-           border-right: none;
-           border-left: none; 
-           box-shadow: none;
-           width: 100%;
-           max-width: 100%;
-           padding: 16px 10px;
-           background-image: none;
-           font-size: 2.3em;
-           font-family:$robo;
-           color: #c3c5c8;
-      
-       .frm_style_formidable-style.with_frm_style .form-field input:not([type=file]):focus {
-        
-            border-color: #44707b;
-            box-shadow: none;
+    .frm_style_formidable-style.with_frm_style .frm_form_field:invalid {
+        border-bottom: solid #44707b;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        box-shadow: none;
+        width: 100%;
+        max-width: 100%;
+        padding: 16px 10px;
+        background-image: none;
+        font-size: 2.3em;
+        font-family: $robo;
+        color: #c3c5c8;
     }
-      
-        }
-    
-     
+    .frm_style_formidable-style.with_frm_style .form-field input:not([type=file]):focus {
+        border-color: #44707b;
+        box-shadow: none;
+    }
 }

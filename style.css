@@ -883,6 +883,7 @@ h3 {
 .form .frm_style_formidable-style.with_frm_style input[type=text] {
   border-bottom: solid #44707b;
   border-top: none;
+  border-radius: 0;
   border-right: none;
   border-left: none;
   box-shadow: none;
@@ -894,7 +895,7 @@ h3 {
   font-family: "Roboto", sans-serif;
   color: #c3c5c8; }
 
-.form .frm_style_formidable-style.with_frm_style .frm_form_field :invalid {
+.form .frm_style_formidable-style.with_frm_style .frm_form_field:invalid {
   border-bottom: solid #44707b;
   border-top: none;
   border-right: none;
@@ -907,6 +908,7 @@ h3 {
   font-size: 2.3em;
   font-family: "Roboto", sans-serif;
   color: #c3c5c8; }
-  .form .frm_style_formidable-style.with_frm_style .frm_form_field :invalid .frm_style_formidable-style.with_frm_style .form-field input:not([type=file]):focus {
-    border-color: #44707b;
-    box-shadow: none; }
+
+.form .frm_style_formidable-style.with_frm_style .form-field input:not([type=file]):focus {
+  border-color: #44707b;
+  box-shadow: none; }
