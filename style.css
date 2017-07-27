@@ -898,6 +898,7 @@ h3 {
   width: 100%;
   max-width: 100%;
   padding: 6px 10px; }
-  .form .frm_style_formidable-style.with_frm_style .frm_form_field :invalid .frm_style_formidable-style.with_frm_style .form-field :focus {
-    border-color: #44707b;
-    box-shadow: none; }
+
+.form .frm_style_formidable-style.with_frm_style .form-field :focus {
+  border-color: #44707b;
+  box-shadow: none; }
