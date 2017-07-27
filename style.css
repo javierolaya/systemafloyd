@@ -617,6 +617,12 @@ h3 {
     color: white;
     text-align: right;
     line-height: 30px; }
+  @media (min-width: 980px) {
+    .Bio .text {
+      max-width: 70%; } }
+  @media (min-width: 1420px) {
+    .Bio .text {
+      max-width: 50%; } }
 
 .title {
   width: 90%;
