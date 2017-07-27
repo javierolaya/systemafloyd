@@ -41,7 +41,7 @@
             margin-bottom: -3%;
             text-align: center; 
                 
-                @include breakpoint(min-width 980px) {
+                @include breakpoint(max-width 980px) {
                 font-size: 4em;
                 }    
                 
@@ -52,7 +52,7 @@
             color: $blue;
             text-align: center;
                  
-                @include breakpoint(min-width 980px) {
+                @include breakpoint(max-width 980px) {
                 font-size: 6em;
                 }  
             }
