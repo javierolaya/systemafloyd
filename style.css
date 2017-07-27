@@ -885,6 +885,7 @@ h3 {
   border-top: none;
   border-right: none;
   border-left: none;
+  box-shadow: none;
   width: 100%;
   max-width: 100%;
   padding: 6px 10px; }

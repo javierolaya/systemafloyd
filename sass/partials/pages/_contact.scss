@@ -87,10 +87,12 @@
            border-bottom: solid #44707b;
            border-top: none;
            border-right: none;
-           border-left: none; 
+           border-left: none;
+           box-shadow: none;
            width: 100%;
            max-width: 100%;
            padding: 6px 10px;
+        
     }
     
     .frm_style_formidable-style.with_frm_style .frm_form_field :invalid  {
