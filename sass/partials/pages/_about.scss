@@ -15,6 +15,10 @@
             font-size: 15em;
             font-family: $roboCon;
             text-align: right;
+            
+             @include breakpoint(min-width 980px) {
+                font-size: 15em;
+            }
         }
         p {
             color: white;
@@ -22,12 +26,7 @@
             line-height: 30px;
         }
         
-            @include breakpoint(min-width 980px) {
-                max-width: 70%;
-            }
-            @include breakpoint(min-width 1420px) {
-                max-width: 50%;
-            }
+           
         }
     }
 
