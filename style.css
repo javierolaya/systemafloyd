@@ -615,7 +615,7 @@ h3 {
     text-align: right; }
     @media (min-width: 980px) {
       .Bio .text h2 {
-        font-size: 15em; } }
+        font-size: 13em; } }
   .Bio .text p {
     color: white;
     text-align: right;
@@ -629,10 +629,16 @@ h3 {
     color: #728472;
     margin-bottom: -3%;
     text-align: center; }
+    @media (min-width: 980px) {
+      .title h4 {
+        font-size: 4em; } }
   .title h3 {
     font-size: 9em;
     color: #003D4C;
     text-align: center; }
+    @media (min-width: 980px) {
+      .title h3 {
+        font-size: 6em; } }
 
 .description {
   width: 75%;
