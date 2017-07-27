@@ -66,13 +66,8 @@
         }
     }
     .frm_style_formidable-style.with_frm_style input[type=text] {
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
->>>>>>> Stashed changes
         border-bottom: solid #44707b;
         border-top: none;
-        border-radius: 0;
         border-right: none;
         border-left: none;
         box-shadow: none;
@@ -83,7 +78,6 @@
         font-size: 2.3em;
         font-family: $robo;
         color: #c3c5c8;
-<<<<<<< Updated upstream
     }
     .frm_style_formidable-style.with_frm_style .frm_form_field:invalid {
         border-bottom: solid #44707b;
@@ -98,57 +92,9 @@
         font-size: 2.3em;
         font-family: $robo;
         color: #c3c5c8;
-    }
-    .frm_style_formidable-style.with_frm_style .form-field input:not([type=file]):focus {
-        border-color: #44707b;
-        box-shadow: none;
-=======
-    }
-    .frm_style_formidable-style.with_frm_style .frm_form_field:invalid {
-        border-bottom: solid #44707b;
-        border-top: none;
-        border-right: none;
-        border-left: none;
-        box-shadow: none;
-        width: 100%;
-        max-width: 100%;
-        padding: 16px 10px;
-        background-image: none;
-        font-size: 2.3em;
-        font-family: $robo;
-        color: #c3c5c8;
-    }
-    .frm_style_formidable-style.with_frm_style .form-field input:not([type=file]):focus {
-        border-color: #44707b;
-        box-shadow: none;
-=======
-           border-bottom: solid #44707b;
-           border-top: none;
-           border-right: none;
-           border-left: none;
-           box-shadow: none;
-           width: 100%;
-           max-width: 100%;
-           padding: 6px 10px;
-           background-image: none;
-        
-    }
-    
-    .frm_style_formidable-style.with_frm_style .frm_form_field :invalid  {
-         border-bottom: solid #44707b;
-           border-top: none;
-           border-right: none;
-           border-left: none; 
-           box-shadow: none;
-           width: 100%;
-           max-width: 100%;
-           padding: 6px 10px;
-      
-       .frm_style_formidable-style.with_frm_style .form-field input:not([type=file]):focus {
-        
+        .frm_style_formidable-style.with_frm_style .form-field input:not([type=file]):focus {
             border-color: #44707b;
             box-shadow: none;
->>>>>>> parent of 07d8f81... form - font size, family , padding
->>>>>>> Stashed changes
+        }
     }
 }
