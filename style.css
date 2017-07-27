@@ -608,6 +608,12 @@ h3 {
   -webkit-background-size: cover;
   background-size: cover;
   background-image: url(/wp-content/uploads/2017/07/IMG_7155.jpg); }
+  @media (min-width: 980px) {
+    .Bio {
+      max-width: 70%; } }
+  @media (min-width: 1420px) {
+    .Bio {
+      max-width: 50%; } }
   .Bio .text h2 {
     color: #c3c5c8;
     font-size: 15em;
