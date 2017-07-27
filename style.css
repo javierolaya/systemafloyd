@@ -604,6 +604,7 @@ h3 {
   padding: 9% !important;
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
   background-image: url(/wp-content/uploads/2017/07/IMG_7155.jpg); }
   .Bio .text h2 {
     color: #c3c5c8;
@@ -658,7 +659,7 @@ h3 {
       margin-right: 0; } }
   @media (min-width: 1300px) {
     .testimonials .class {
-      min-height: 545px; } }
+      min-height: 626px; } }
 
 .testimonials .picture1 {
   background-image: url(/wp-content/uploads/2017/07/George.png); }
@@ -837,7 +838,7 @@ h3 {
   width: 50%; }
 
 .contact .directions {
-  /*min-height: 400px;*/
+  min-height: 400px;
   background-color: #cfcfcf;
   padding: 4.6%; }
   .contact .directions h1 {

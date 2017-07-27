@@ -4,6 +4,7 @@
     padding: 9% !important;
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
     background-image: url(/wp-content/uploads/2017/07/IMG_7155.jpg);
     .text {
         h2 {
@@ -71,7 +72,7 @@
             margin-right: 0;
         }
         @include breakpoint(min-width 1300px) {
-            min-height: 545px;
+            min-height: 626px;
         }
     }
     .picture1 {
