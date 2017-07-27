@@ -880,7 +880,7 @@ h3 {
       border-radius: 30px;
       border: none; }
 
-.form .field_ddcc1 {
+.form .frm_style_formidable-style.with_frm_style input[type=text] {
   border-bottom: solid #44707b;
   border-top: none;
   border-right: none;
