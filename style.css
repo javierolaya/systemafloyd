@@ -855,50 +855,48 @@ h3 {
   .contact .directions .button a {
     background-color: #E4002B; }
 
-.form .title_box {
-  margin-bottom: 0; }
-
-.form .questions h1 {
-  font-size: 8em;
-  color: #003D4C;
-  padding: 2% 4% 0 4%;
-  margin-bottom: 0; }
-
-.form .layout {
-  padding: 0 5% 0 4%; }
-  .form .layout .frm_submit {
-    text-align: center;
-    padding-bottom: 2%;
-    padding-top: 2%; }
-    .form .layout .frm_submit .frm_button_submit {
+.form {
+  /*.frm_style_formidable-style.with_frm_style .form-field :focus {
+        
+            border-color: #44707b;
+            box-shadow: none;
+    }*/ }
+  .form .title_box {
+    margin-bottom: 0; }
+  .form .questions h1 {
+    font-size: 8em;
+    color: #003D4C;
+    padding: 2% 4% 0 4%;
+    margin-bottom: 0; }
+  .form .layout {
+    padding: 0 5% 0 4%; }
+    .form .layout .frm_submit {
       text-align: center;
-      color: #FFF;
-      font-size: 2.3em;
-      font-family: "Roboto", sans-serif;
-      background-color: red;
-      padding: .3% 3%;
-      border-radius: 30px;
-      border: none; }
-
-.form .field_ddcc1 {
-  border-bottom: solid #44707b;
-  border-top: none;
-  border-right: none;
-  border-left: none;
-  width: 100%;
-  max-width: 100%;
-  padding: 6px 10px; }
-
-.form .frm_style_formidable-style.with_frm_style .frm_form_field :invalid {
-  border-bottom: solid #44707b;
-  border-top: none;
-  border-right: none;
-  border-left: none;
-  box-shadow: none;
-  width: 100%;
-  max-width: 100%;
-  padding: 6px 10px; }
-
-.form .frm_style_formidable-style.with_frm_style .form-field :focus {
-  border-color: #44707b;
-  box-shadow: none; }
+      padding-bottom: 2%;
+      padding-top: 2%; }
+      .form .layout .frm_submit .frm_button_submit {
+        text-align: center;
+        color: #FFF;
+        font-size: 2.3em;
+        font-family: "Roboto", sans-serif;
+        background-color: red;
+        padding: .3% 3%;
+        border-radius: 30px;
+        border: none; }
+  .form .field_ddcc1 {
+    border-bottom: solid #44707b;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    width: 100%;
+    max-width: 100%;
+    padding: 6px 10px; }
+  .form .frm_style_formidable-style.with_frm_style .frm_form_field :invalid :hover {
+    border-bottom: solid #44707b;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    box-shadow: none;
+    width: 100%;
+    max-width: 100%;
+    padding: 6px 10px; }
