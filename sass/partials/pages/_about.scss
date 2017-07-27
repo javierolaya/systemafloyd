@@ -16,7 +16,7 @@
             font-family: $roboCon;
             text-align: right;
             
-             @include breakpoint(min-width 980px) {
+             @include breakpoint(max-width 980px) {
                 font-size: 13em;
             }
         }
