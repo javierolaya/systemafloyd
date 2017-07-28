@@ -613,7 +613,7 @@ h3 {
     font-size: 15em;
     font-family: "Roboto Condensed", sans-serif;
     text-align: right; }
-    @media (min-width: 980px) {
+    @media (max-width: 980px) {
       .Bio .text h2 {
         font-size: 13em; } }
   .Bio .text p {
