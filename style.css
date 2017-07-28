@@ -844,8 +844,7 @@ h3 {
       text-transform: uppercase; }
       @media (max-width: 980px) {
         .advantages .systema_children h2 {
-          font-size: 6em;
-          text-align: right !important; } }
+          font-size: 6em; } }
     .advantages .systema_children p {
       padding: 1% 18% 4% !important;
       font-size: 2em;
