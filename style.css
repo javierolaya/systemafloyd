@@ -613,7 +613,7 @@ h3 {
     font-size: 15em;
     font-family: "Roboto Condensed", sans-serif;
     text-align: right; }
-    @media (max-width: 980px) {
+    @media (min-width: 980px) {
       .Bio .text h2 {
         font-size: 13em; } }
   .Bio .text p {
@@ -655,6 +655,13 @@ h3 {
   -moz-column-gap: 40px;
   /* Firefox */
   column-gap: 55px; }
+  @media (min-width: 980px) {
+    .description {
+      -webkit-column-count: 1;
+      /* Chrome, Safari, Opera */
+      -moz-column-count: 1;
+      /* Firefox */
+      column-count: 1; } }
   .description p {
     line-height: 30px !important; }
 

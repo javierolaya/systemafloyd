@@ -16,7 +16,7 @@
             font-family: $roboCon;
             text-align: right;
             
-             @include breakpoint(max-width 980px) {
+             @include breakpoint(min-width 980px) {
                 font-size: 13em;
             }
         }
@@ -73,10 +73,18 @@
         -moz-column-gap: 40px; /* Firefox */
         column-gap: 55px;
     
+      @include breakpoint(min-width 980px) {
+        -webkit-column-count: 1; /* Chrome, Safari, Opera */
+        -moz-column-count: 1; /* Firefox */
+        column-count: 1;
+            }
+    
     p {
         
         line-height: 30px !important;
     }
+    
+     
 }
 
 .testimonials {
