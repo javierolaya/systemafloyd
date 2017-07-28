@@ -38,6 +38,11 @@
             color:white;
             font-size: 2em;
             line-height: 1.5;
+            
+            @include breakpoint(max-width 980px) {
+                
+                text-align: right;
+            }
         }
     }
 

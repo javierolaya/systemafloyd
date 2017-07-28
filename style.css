@@ -786,6 +786,9 @@ h3 {
     color: white;
     font-size: 2em;
     line-height: 1.5; }
+    @media (max-width: 980px) {
+      .systema .bluebox p {
+        text-align: right; } }
 
 .systema #practical_bg {
   width: 50%;
