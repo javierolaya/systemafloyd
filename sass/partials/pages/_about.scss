@@ -18,6 +18,7 @@
             
              @include breakpoint(max-width 980px) {
                 font-size: 13em;
+                 
             }
         }
         p {
@@ -26,9 +27,7 @@
             line-height: 30px;
         }
         
-         @include breakpoint(max-width 980px) {
-                text-align: left;
-            }
+         
            
         }
     }
@@ -80,6 +79,7 @@
         -webkit-column-count: 1; /* Chrome, Safari, Opera */
         -moz-column-count: 1; /* Firefox */
         column-count: 1;
+          text-align: right;
             }
     
     p {

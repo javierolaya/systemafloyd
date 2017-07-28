@@ -7,6 +7,11 @@
     .children {
         margin-right: 0;
         width: 50%;
+        
+           
+            @include breakpoint(max-width 980px) {
+                margin-bottom: 0;
+            }
     }
     
     .bluebox {
@@ -21,6 +26,11 @@
             
             color:white;
             font-size: 8em;
+              
+            @include breakpoint(max-width 980px) {
+                font-size: 6em;
+                text-align: right;
+            }
         }
         
         p {
@@ -99,6 +109,8 @@
             color: $blue;
             font-size: 8em;
             text-transform: uppercase;
+                 
+             
         }
             
              p {
