@@ -102,11 +102,7 @@
             color: $blue;
             text-align: center;
             line-height: 2;
-            
-            @include breakpoint(max-width 980px) {
-                
-                text-align: right !important;
-            }
+          
         }
     }
    
@@ -138,10 +134,7 @@
             line-height: 2;
             margin-bottom: 2%;
                  
-             @include breakpoint(max-width 980px) {
-                
-                text-align: right !important;
-            }
+            
             
         }
     }
