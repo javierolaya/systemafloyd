@@ -819,11 +819,18 @@ h3 {
     font-size: 8em;
     text-align: center;
     padding-bottom: 2%; }
+    @media (max-width: 980px) {
+      .how h2 {
+        font-size: 6em;
+        text-align: right; } }
   .how p {
     font-size: 2em;
     color: #003D4C;
     text-align: center;
     line-height: 2; }
+    @media (max-width: 980px) {
+      .how p {
+        text-align: right; } }
 
 .advantages {
   background-color: #ededee;
@@ -835,12 +842,19 @@ h3 {
       color: #003D4C;
       font-size: 8em;
       text-transform: uppercase; }
+      @media (max-width: 980px) {
+        .advantages .systema_children h2 {
+          font-size: 6em;
+          text-align: right; } }
     .advantages .systema_children p {
       padding: 1% 18% 4% !important;
       font-size: 2em;
       color: #003D4C;
       line-height: 2;
       margin-bottom: 2%; }
+      @media (max-width: 980px) {
+        .advantages .systema_children p {
+          text-align: right; } }
   .advantages .list {
     background-color: #ededee;
     margin-top: -4%;
