@@ -860,6 +860,16 @@ h3 {
       font-size: 3em;
       color: #003D4C;
       padding-bottom: 0em !important; }
+      @media (max-width: 980px) {
+        .advantages .list p {
+          font-size: 2em; } }
+    @media (max-width: 980px) {
+      .advantages .list {
+        -webkit-column-count: 1;
+        /* Chrome, Safari, Opera */
+        -moz-column-count: 1;
+        /* Firefox */
+        column-count: 1; } }
 
 /* ==========================================================================
    Contact Page 
