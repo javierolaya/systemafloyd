@@ -137,10 +137,10 @@
     .picture1 {
         background-image: url(/wp-content/uploads/2017/07/George.png);
         
-        @include breakpoint(max-width 1020px) {
+        @include breakpoint(min-width 1020px) {
             
                 padding: 15% 4%;
-                width: 50% !important;
+               
                  
             }
         

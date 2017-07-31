@@ -703,10 +703,9 @@ h3 {
 
 .testimonials .picture1 {
   background-image: url(/wp-content/uploads/2017/07/George.png); }
-  @media (max-width: 1020px) {
+  @media (min-width: 1020px) {
     .testimonials .picture1 {
-      padding: 15% 4%;
-      width: 50% !important; } }
+      padding: 15% 4%; } }
   @media (min-width: 1300px) {
     .testimonials .picture1 {
       padding: 9% 3%; } }
