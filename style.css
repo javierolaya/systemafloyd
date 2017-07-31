@@ -491,7 +491,7 @@ h3 {
   min-height: 100% !important; }
 
 #top-menu li {
-  color: white;
+  color: white !important;
   font-size: 1.8em;
   text-transform: uppercase; }
 
