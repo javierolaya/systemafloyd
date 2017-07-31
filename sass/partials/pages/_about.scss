@@ -8,6 +8,14 @@
     -webkit-background-size: cover;
     background-size: cover;
     background-image: url(/wp-content/uploads/2017/07/IMG_7155.jpg);
+    
+    
+    @include breakpoint(max-width 980px) {
+        font-size: 13em;
+        background-image: none;
+        background-color: #5e656f;
+                 
+            }
 
     .text {
         h2 {
@@ -18,6 +26,7 @@
             
              @include breakpoint(max-width 980px) {
                 font-size: 13em;
+                 text-align: center;
                  
             }
         }
@@ -25,6 +34,12 @@
             color: white;
             text-align: right;
             line-height: 30px;
+            
+             @include breakpoint(max-width 980px) {
+                
+                 text-align: center;
+                 
+            }
         }
         
          
@@ -79,7 +94,8 @@
         -webkit-column-count: 1; /* Chrome, Safari, Opera */
         -moz-column-count: 1; /* Firefox */
         column-count: 1;
-          text-align: right !important;
+          text-align: center !important;
+          
             }
     
     p {
