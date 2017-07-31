@@ -831,6 +831,7 @@ h3 {
         padding: 3% 0% 2%; } }
 
 .systema #practical_bg {
+  min-height: 684px;
   width: 50%;
   position: relative;
   padding: 5.1% !important;
