@@ -678,6 +678,9 @@ h3 {
       text-align: center !important; } }
   .description p {
     line-height: 30px !important; }
+    @media (max-width: 980px) {
+      .description p {
+        text-align: center !important; } }
 
 .testimonials .class {
   width: 50%;

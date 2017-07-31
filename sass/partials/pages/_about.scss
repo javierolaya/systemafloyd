@@ -102,6 +102,11 @@
     p {
         
         line-height: 30px !important;
+        
+         @include breakpoint(max-width 980px) {
+             text-align: center !important;
+          
+            }
     }
     
      
