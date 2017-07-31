@@ -30,7 +30,7 @@
         
 
          @include breakpoint(max-width 980px) {
-                    padding: 6.36% 13.4%;
+                    padding: 6.36% 9%;
             }
         
           h2 {
@@ -89,7 +89,7 @@
         text-align: center;
         
          @include breakpoint(max-width 980px) {
-                     margin: 0% 3% 0% 3%;
+                     margin: 4% 3% 0% 3%;
                 
             }    
             
@@ -113,7 +113,7 @@
         padding: 2% 18% 2% !important;
         
          @include breakpoint(max-width 980px) {
-                 padding: 2% 14% 2% !important;
+                 padding: 2% 9% 2% !important;
                 
             }
         
@@ -170,7 +170,7 @@
                  
             
             @include breakpoint(max-width 980px) {
-                padding: 4% 5% 7% !important;
+                padding: 4% 7% 7% !important;
                 
             }
         }

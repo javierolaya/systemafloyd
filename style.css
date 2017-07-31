@@ -669,7 +669,7 @@ h3 {
     text-align: center; }
     @media (max-width: 980px) {
       .title h3 {
-        font-size: 6em; } }
+        font-size: 5em; } }
 
 .description {
   width: 75%;
@@ -819,7 +819,7 @@ h3 {
   margin-right: 0; }
   @media (max-width: 980px) {
     .systema .bluebox {
-      padding: 6.36% 13.4%; } }
+      padding: 6.36% 9%; } }
   .systema .bluebox h2 {
     color: white;
     font-size: 8em; }
@@ -860,7 +860,7 @@ h3 {
     text-align: center; }
     @media (max-width: 980px) {
       .systema #practical_bg .example {
-        margin: 0% 3% 0% 3%; } }
+        margin: 4% 3% 0% 3%; } }
     .systema #practical_bg .example h5 {
       color: #003D4C;
       font-size: 2.6em; }
@@ -873,7 +873,7 @@ h3 {
   padding: 2% 18% 2% !important; }
   @media (max-width: 980px) {
     .how {
-      padding: 2% 14% 2% !important; } }
+      padding: 2% 9% 2% !important; } }
   .how h2 {
     color: #003D4C;
     font-size: 8em;
@@ -910,7 +910,7 @@ h3 {
       margin-bottom: 2%; }
       @media (max-width: 980px) {
         .advantages .systema_children p {
-          padding: 4% 5% 7% !important; } }
+          padding: 4% 7% 7% !important; } }
   .advantages .list {
     background-color: #ededee;
     margin-top: -4%;
