@@ -76,7 +76,8 @@
         
         
         @include breakpoint(max-width 1080px) {
-                    width: 100%;
+                background-position: center;
+                min-height: 340px;
             }
 
         

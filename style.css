@@ -850,7 +850,8 @@ h3 {
       width: 100%; } }
   @media (max-width: 1080px) {
     .systema #practical_bg {
-      width: 100%; } }
+      background-position: center;
+      min-height: 340px; } }
   .systema #practical_bg .example {
     background-color: white;
     padding: 9.9%;
