@@ -803,6 +803,9 @@ h3 {
 .systema .children {
   margin-right: 0;
   width: 50%; }
+  @media (max-width: 1800px) {
+    .systema .children {
+      width: 100%; } }
   @media (max-width: 1080px) {
     .systema .children {
       width: 100%; } }
@@ -842,6 +845,9 @@ h3 {
   background-size: cover;
   background-position: center right;
   background-image: url(/wp-content/uploads/2017/07/IMG_3720_2.jpg); }
+  @media (max-width: 1800px) {
+    .systema #practical_bg {
+      width: 100%; } }
   @media (max-width: 1080px) {
     .systema #practical_bg {
       width: 100%; } }

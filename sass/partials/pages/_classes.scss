@@ -9,6 +9,11 @@
         width: 50%;
         
           
+        
+         @include breakpoint(max-width 1800px) {
+                    width: 100%;
+            }
+        
             @include breakpoint(max-width 1080px) {
                     width: 100%;
             }
@@ -63,6 +68,12 @@
         background-size: cover;
         background-position: center right;
         background-image: url(/wp-content/uploads/2017/07/IMG_3720_2.jpg);
+        
+       
+         @include breakpoint(max-width 1800px) {
+                    width: 100%;
+            }
+        
         
         @include breakpoint(max-width 1080px) {
                     width: 100%;
