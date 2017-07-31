@@ -10,9 +10,15 @@
     background-image: url(/wp-content/uploads/2017/07/IMG_7155.jpg);
     
     
+     @include breakpoint(max-width 1020px) {
+       background-position: left;
+       padding: 0 3% 3% 0% !important; 
+                 
+            }
+    
     @include breakpoint(max-width 980px) {
         background-image: none;
-        background-color: #5e656f;
+        background-color: #869095;
                  
             }
 
