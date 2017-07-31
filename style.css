@@ -628,10 +628,12 @@ h3 {
   .Bio .text p {
     color: white;
     text-align: right;
-    line-height: 30px; }
+    line-height: 30px;
+    font-size: 1.8em; }
     @media (max-width: 980px) {
       .Bio .text p {
-        text-align: center; } }
+        text-align: center;
+        font-size: 1.8em; } }
 
 .title {
   width: 90%;
