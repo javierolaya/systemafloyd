@@ -74,8 +74,12 @@
 
 #top-menu li {
     
-    color: white !important;
+    
     font-size: 1.8em;
     text-transform: uppercase;
+    
+    a {
+       color: white !important;
+    }
     
 }
