@@ -20,7 +20,9 @@
         margin-right: 0;
         
 
-        
+         @include breakpoint(max-width 980px) {
+                    padding: 6.36% 13.4%;
+            }
         
           h2 {
             
