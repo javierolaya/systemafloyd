@@ -680,7 +680,9 @@ h3 {
       -moz-column-count: 1;
       /* Firefox */
       column-count: 1;
-      text-align: center !important; } }
+      text-align: center !important;
+      width: 100%;
+      padding: 2%; } }
   .description p {
     line-height: 30px !important; }
     @media (max-width: 980px) {
