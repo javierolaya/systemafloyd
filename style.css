@@ -730,9 +730,6 @@ h3 {
 
 .testimonials .text_box {
   background-color: #c3c5c8; }
-  @media (max-width: 1020px) {
-    .testimonials .text_box {
-      padding: 26%; } }
   @media (min-width: 1300px) {
     .testimonials .text_box {
       padding: 9% 3%; } }
@@ -756,9 +753,6 @@ h3 {
 
 .testimonials .text_box2 {
   background-color: #003D4C; }
-  @media (max-width: 1020px) {
-    .testimonials .text_box2 {
-      padding: 26%; } }
   @media (min-width: 1300px) {
     .testimonials .text_box2 {
       padding: 9% 3%; } }
@@ -782,9 +776,6 @@ h3 {
 
 .testimonials .text_box3 {
   background-color: #728472; }
-  @media (max-width: 1020px) {
-    .testimonials .text_box3 {
-      padding: 26%; } }
   @media (min-width: 1300px) and (max-width: 1876px) {
     .testimonials .text_box3 {
       padding: 9% 5%; } }

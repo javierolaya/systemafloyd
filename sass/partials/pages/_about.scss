@@ -156,14 +156,7 @@
     .text_box {
         
         background-color: #c3c5c8 ;
-        
-        
-        @include breakpoint(max-width 1020px) {
-            
-                padding: 26%;
-               
-                 
-            }
+    
         @include breakpoint(min-width 1300px) {
             padding: 9% 3%;
         }
@@ -195,13 +188,7 @@
     }
     .text_box2 {
        background-color: $blue;
-        
-        @include breakpoint(max-width 1020px) {
-            
-                padding: 26%;
-               
-                 
-            }
+   
         @include breakpoint(min-width 1300px) {
             padding: 9% 3%;
         }
@@ -236,13 +223,7 @@
     
     .text_box3 {
        background-color: #728472;
-        
-        @include breakpoint(max-width 1020px) {
-            
-                padding: 26%;
-               
-                 
-            }
+    
     
         @include breakpoint(1300px 1876px) {
             padding: 9% 5%;
