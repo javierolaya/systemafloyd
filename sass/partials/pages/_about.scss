@@ -139,9 +139,9 @@
     .picture1 {
         background-image: url(/wp-content/uploads/2017/07/George.png);
         
-        @include breakpoint(max-width 1020px) {
+        @include breakpoint(min-width 1020px) {
             
-                padding: 48%;
+                padding: 50%;
                
                  
             }
@@ -156,6 +156,14 @@
     .text_box {
         
         background-color: #c3c5c8 ;
+        
+        
+        @include breakpoint(min-width 1020px) {
+            
+                padding: 50%;
+               
+                 
+            }
         @include breakpoint(min-width 1300px) {
             padding: 9% 3%;
         }
@@ -180,7 +188,7 @@
         
           @include breakpoint(max-width 1020px) {
             
-                padding: 48%;
+                padding: 26%;
                
                  
             }

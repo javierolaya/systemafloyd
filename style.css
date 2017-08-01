@@ -718,9 +718,9 @@ h3 {
 
 .testimonials .picture1 {
   background-image: url(/wp-content/uploads/2017/07/George.png); }
-  @media (max-width: 1020px) {
+  @media (min-width: 1020px) {
     .testimonials .picture1 {
-      padding: 48%; } }
+      padding: 50%; } }
   @media (min-width: 1300px) {
     .testimonials .picture1 {
       padding: 9% 3%; } }
@@ -730,6 +730,9 @@ h3 {
 
 .testimonials .text_box {
   background-color: #c3c5c8; }
+  @media (min-width: 1020px) {
+    .testimonials .text_box {
+      padding: 50%; } }
   @media (min-width: 1300px) {
     .testimonials .text_box {
       padding: 9% 3%; } }
@@ -749,7 +752,7 @@ h3 {
   background-image: url(/wp-content/uploads/2017/07/George.png); }
   @media (max-width: 1020px) {
     .testimonials .picture2 {
-      padding: 48%; } }
+      padding: 26%; } }
 
 .testimonials .text_box2 {
   background-color: #003D4C; }
