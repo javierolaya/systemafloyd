@@ -198,13 +198,13 @@
             padding-bottom: 0em !important; 
              
              
-        @include breakpoint(max-width 1070px) {
-            font-size:2em;
+        @include breakpoint(max-width 1010px) {
+            font-size: 2em !important;
         
             }   
              
         @include breakpoint(max-width 780px) {
-            font-size:2em;
+            font-size: 2em;
         
             }
         }
