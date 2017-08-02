@@ -928,7 +928,7 @@ h3 {
       font-size: 3em;
       color: #003D4C;
       padding-bottom: 0em !important; }
-      @media (max-width: 1010px) {
+      @media (max-width: 1370px) {
         .advantages .list p {
           font-size: 2em !important; } }
       @media (max-width: 780px) {
