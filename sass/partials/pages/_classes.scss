@@ -197,7 +197,13 @@
             color: $blue;
             padding-bottom: 0em !important; 
              
+             
         @include breakpoint(max-width 1370px) {
+            font-size:2em;
+        
+            }   
+             
+        @include breakpoint(max-width 780px) {
             font-size:2em;
         
             }

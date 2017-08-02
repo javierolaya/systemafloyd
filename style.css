@@ -931,6 +931,9 @@ h3 {
       @media (max-width: 1370px) {
         .advantages .list p {
           font-size: 2em; } }
+      @media (max-width: 780px) {
+        .advantages .list p {
+          font-size: 2em; } }
     @media (max-width: 1370px) {
       .advantages .list {
         -webkit-column-count: 2;
