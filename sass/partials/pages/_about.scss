@@ -9,15 +9,16 @@
     background-size: cover;
     background-image: url(/wp-content/uploads/2017/07/IMG_7155.jpg);
     
-    @include breakpoint(max-width 1020px) {
-       background-position: left;
-       padding: 0 3% 2% 0% !important; 
+    @include breakpoint(min-width 985px) {
+       
+            padding: 1% 2% 2%!important;
+            background-position: left;
                  
             }
     
      @include breakpoint(max-width 1020px) {
-       background-position: left;
-       padding: 0 3% 2% 0% !important; 
+           background-position: left;
+           padding: 0 3% 2% 0% !important; 
                  
             }
     
@@ -33,6 +34,7 @@
             font-size: 15em;
             font-family: $roboCon;
             text-align: right;
+         
             
              @include breakpoint(max-width 980px) {
                 font-size: 13em;
@@ -103,13 +105,20 @@
         -moz-column-gap: 40px; /* Firefox */
         column-gap: 55px;
     
+    
+     @include breakpoint(min-width 985px) {
+       
+            width: 90%;
+                 
+            }
+    
       @include breakpoint(max-width 980px) {
-        -webkit-column-count: 1; /* Chrome, Safari, Opera */
-        -moz-column-count: 1; /* Firefox */
-        column-count: 1;
-        text-align: center !important;
-        width: 100%;
-        padding: 2%;
+            -webkit-column-count: 1; /* Chrome, Safari, Opera */
+            -moz-column-count: 1; /* Firefox */
+            column-count: 1;
+            text-align: center !important;
+            width: 100%;
+            padding: 2%;
           
             }
     
