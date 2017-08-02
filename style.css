@@ -496,6 +496,9 @@ h3 {
   #top-menu li a {
     color: white !important; }
 
+.nav li ul {
+  background: #728472; }
+
 /* ==========================================================================
    Home page
    ========================================================================== */
@@ -624,6 +627,10 @@ h3 {
   -webkit-background-size: cover;
   background-size: cover;
   background-image: url(/wp-content/uploads/2017/07/IMG_7155.jpg); }
+  @media (max-width: 1020px) {
+    .Bio {
+      background-position: left;
+      padding: 0 3% 2% 0% !important; } }
   @media (max-width: 1020px) {
     .Bio {
       background-position: left;

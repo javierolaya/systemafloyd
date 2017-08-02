@@ -9,6 +9,11 @@
     background-size: cover;
     background-image: url(/wp-content/uploads/2017/07/IMG_7155.jpg);
     
+    @include breakpoint(max-width 1020px) {
+       background-position: left;
+       padding: 0 3% 2% 0% !important; 
+                 
+            }
     
      @include breakpoint(max-width 1020px) {
        background-position: left;
