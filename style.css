@@ -627,7 +627,7 @@ h3 {
   -webkit-background-size: cover;
   background-size: cover;
   background-image: url(/wp-content/uploads/2017/07/IMG_7155.jpg); }
-  @media (max-width: 1250px) {
+  @media (max-width: 1150px) {
     .Bio {
       padding: 1% 2% 2% !important;
       background-position: left; } }
@@ -1042,3 +1042,9 @@ h3 {
   font-size: 2.3em;
   font-family: "Roboto", sans-serif;
   color: #c3c5c8; }
+
+/* ==========================================================================
+   Gallery
+   ========================================================================== */
+.gallery-item a {
+  width: 100%; }
