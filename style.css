@@ -727,10 +727,13 @@ h3 {
       min-height: 626px; } }
 
 .testimonials .picture1 {
-  background-image: url(/wp-content/uploads/2017/07/George.png); }
-  @media (max-width: 1020px) {
-    .testimonials .picture1 {
-      padding: 26%; } }
+  background-image: url(/wp-content/uploads/2017/07/George.png);
+  /* @include breakpoint(max-width 1020px) {
+            
+                padding: 26%;
+               
+                 
+            }*/ }
   @media (min-width: 1300px) {
     .testimonials .picture1 {
       padding: 9% 3%; } }
@@ -1047,5 +1050,4 @@ h3 {
    Gallery
    ========================================================================== */
 .gallery-item a {
-  width: 100%;
-  max-width: 100%; }
+  width: 100%; }
