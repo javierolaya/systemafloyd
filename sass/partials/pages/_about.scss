@@ -155,12 +155,12 @@
         
       
         
-        @include breakpoint(min-width 1300px) {
+        /*@include breakpoint(min-width 1300px) {
             padding: 9% 3%;
         }
         @include breakpoint(1300px 1876px) {
             padding: 9% 5%;
-        }
+        }*/
         
          @include breakpoint(max-width 980px) {
             
