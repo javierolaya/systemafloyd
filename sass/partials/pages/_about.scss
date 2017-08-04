@@ -153,12 +153,7 @@
     .picture1 {
         background-image: url(/wp-content/uploads/2017/07/George.png);
         
-       /* @include breakpoint(max-width 1020px) {
-            
-                padding: 26%;
-               
-                 
-            }*/
+      
         
         @include breakpoint(min-width 1300px) {
             padding: 9% 3%;
@@ -166,6 +161,15 @@
         @include breakpoint(1300px 1876px) {
             padding: 9% 5%;
         }
+        
+         @include breakpoint(max-width 980px) {
+            
+                width: 100%;
+               
+                 
+            }
+        
+        
     }
     .text_box {
         
@@ -193,12 +197,12 @@
     .picture2 {
         background-image: url(/wp-content/uploads/2017/07/George.png);
         
-          /*@include breakpoint(max-width 1020px) {
+           @include breakpoint(max-width 980px) {
             
-                padding: 26%;
+                width: 100%;
                
                  
-            }*/
+            }
     }
     .text_box2 {
        background-color: $blue;
@@ -227,12 +231,12 @@
     .picture3 {
         background-image: url(/wp-content/uploads/2017/07/George.png);
         
-        /*@include breakpoint(max-width 1020px) {
+        @include breakpoint(max-width 980px) {
             
-                padding: 26%;
+                width: 100%;
                
                  
-            }*/
+            }
     }
     
     .text_box3 {
@@ -259,12 +263,12 @@
         
     .picture4 {
         background-image: url(/wp-content/uploads/2017/07/George.png);
-       /*@include breakpoint(max-width 1020px) {
+       @include breakpoint(max-width 980px) {
             
-                padding: 26%;
+                width: 100%;
                
                  
-            }*/
+            }
     }
 }
 
