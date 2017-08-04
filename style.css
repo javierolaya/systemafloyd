@@ -759,10 +759,13 @@ h3 {
     font-size: 2em; }
 
 .testimonials .picture2 {
-  background-image: url(/wp-content/uploads/2017/07/George.png); }
-  @media (max-width: 1020px) {
-    .testimonials .picture2 {
-      padding: 26%; } }
+  background-image: url(/wp-content/uploads/2017/07/George.png);
+  /*@include breakpoint(max-width 1020px) {
+            
+                padding: 26%;
+               
+                 
+            }*/ }
 
 .testimonials .text_box2 {
   background-color: #003D4C; }
@@ -782,10 +785,13 @@ h3 {
     font-size: 2em; }
 
 .testimonials .picture3 {
-  background-image: url(/wp-content/uploads/2017/07/George.png); }
-  @media (max-width: 1020px) {
-    .testimonials .picture3 {
-      padding: 26%; } }
+  background-image: url(/wp-content/uploads/2017/07/George.png);
+  /*@include breakpoint(max-width 1020px) {
+            
+                padding: 26%;
+               
+                 
+            }*/ }
 
 .testimonials .text_box3 {
   background-color: #728472; }
@@ -802,10 +808,13 @@ h3 {
     font-size: 2em; }
 
 .testimonials .picture4 {
-  background-image: url(/wp-content/uploads/2017/07/George.png); }
-  @media (max-width: 1020px) {
-    .testimonials .picture4 {
-      padding: 26%; } }
+  background-image: url(/wp-content/uploads/2017/07/George.png);
+  /*@include breakpoint(max-width 1020px) {
+            
+                padding: 26%;
+               
+                 
+            }*/ }
 
 /* ==========================================================================
    Classes Page 
