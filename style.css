@@ -887,6 +887,13 @@ h3 {
       font-size: 2em;
       color: #003D4C; }
 
+.systema .greybox {
+  min-height: 684px;
+  width: 50%;
+  position: relative;
+  padding: 5.1% !important;
+  background-color: grey; }
+
 .how {
   background-color: white;
   padding: 2% 18% 2% !important; }
