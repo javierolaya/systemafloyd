@@ -20,6 +20,9 @@ if ( ! is_page_template( 'page-template-blank.php' ) ) : ?>
                             
                             <div class="footer-section contactus">
                                 <h2>Contact Us</h2>
+                                <h3>t. 561.123.4567</h3>
+                                <h3>e. info@systemafloyd.com</h3>
+                                <h3>a. 123 Street Dr., West Palm Beach, FL 33401</h3>
                                 
                                 
                             </div>
