@@ -28,10 +28,16 @@ if ( ! is_page_template( 'page-template-blank.php' ) ) : ?>
                             </div>
                             
                             <div class="footer-section followus">
-                                <h2>Follow Us Us</h2>
+                                <h2>Follow Us</h2>
                                 <p>Facebook</p>
                                 <p>Twitter</p>
                                 <p>Instagram</p>
+                                
+                                
+                            </div>
+                            <div class="footer-section aboutus">
+                                <h2>About Us</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo </p>
                                 
                                 
                             </div>
