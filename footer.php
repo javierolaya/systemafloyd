@@ -14,12 +14,13 @@ if ( ! is_page_template( 'page-template-blank.php' ) ) : ?>
       
                     <div id="footer-bottom">
                         <div class="container clearfix">
-                            <div class="footer_logo">
+                            <div class="footer-section logo">
                               <img src="http://systemafloyd.com/wp-content/uploads/2017/08/Logo.png">
                             </div>
                             
-                            <div class="footer-section news">
+                            <div class="footer-section contactus">
                                 <h2>Contact Us</h2>
+                                
                                 
                             </div>
                         </div>
