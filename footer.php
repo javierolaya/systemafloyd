@@ -14,7 +14,7 @@ if ( ! is_page_template( 'page-template-blank.php' ) ) : ?>
             <?php if (is_front_page()) : ?>
                 <div class="et_pb_text et_pb_module et_pb_bg_layout_light et_pb_text_align_left button-list et_pb_text_1">
 
-                    <p><a class="button careers" href="/careers"><i class="fa fa-users" aria-hidden="true"></i>Careers</a><a class="button videos" href="/videos"><i class="fa fa-play-circle-o" aria-hidden="true"></i>Videos</a><a class="button news" href="/news"><i class="fa fa-newspaper-o" aria-hidden="true"></i>News</a></p>
+                    <p><a class="button careers" href="/careers"><i class="fa fa-users" aria-hidden="true"></i>Careers</a><a class="button videos" href="/videos"><i class="fa fa-play-circle-o" aria-hidden="true"></i>Videos</a><a class="button news" href="/news"><i class="fa fa-newspaper-o" aria-hidden="true"></i>New</a></p>
 
                 </div>
                 <?php endif;
