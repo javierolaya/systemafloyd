@@ -114,6 +114,11 @@
         width: 50%;    
         background-color: grey;
         
+        
+        @include breakpoint(max-width 1920px) {
+                 min-height: 697px;
+                
+            }
     }
 }
     

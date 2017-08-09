@@ -896,6 +896,9 @@ h3 {
   min-height: 684px;
   width: 50%;
   background-color: grey; }
+  @media (max-width: 1920px) {
+    .systema .greybox {
+      min-height: 697px; } }
 
 .how {
   background-color: white;
