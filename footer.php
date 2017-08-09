@@ -13,11 +13,22 @@ if ( ! is_page_template( 'page-template-blank.php' ) ) : ?>
         <footer id="main-footer">
             <?php if (is_front_page()) : ?>
                 
-                <?php endif;
-                             ?>
                     <div id="footer-bottom">
                         <div class="container clearfix">
-                           
+                            <div class="footer-section twitter-feed">
+                                <h2>TWITTER</h2>
+                                <?php
+                                echo do_shortcode('[custom-twitter-feeds]');
+                            ?>
+                            </div>
+                            <div class="footer-section award-logos">
+                                <h2>AWARDS</h2>
+                                <img src="https://wginc.com/wp-content/uploads/2017/07/logoHotFirm.png" alt="Zweig Group Hot Firm Award">
+                                <img src="https://wginc.com/wp-content/uploads/2017/07/logoBestFirms.png" alt="Zweig Group Best Firm">
+                                <img src="https://wginc.com/wp-content/uploads/2017/07/logoInc5000.png" alt="Inc. 5000 Award">
+                                <img src="https://wginc.com/wp-content/uploads/2017/07/logoENR.png" alt="ENR Award">
+                                <img src="https://wginc.com/wp-content/uploads/2017/07/marketing-excellence-2017.png" alt="Zweig Group Marketing Excellence Award">
+                            </div>
                             <div class="footer-section news">
                                 <h2>NEWS</h2>
                                 <?php
