@@ -29,9 +29,9 @@ if ( ! is_page_template( 'page-template-blank.php' ) ) : ?>
                             
                             <div class="footer-section followus">
                                 <h2>Follow Us Us</h2>
-                                <i class="fa fa-facebook" aria-hidden="true"></i><p>Facebook</p>
-                                <p>e. info@systemafloyd.com</p>
-                                <p>a. 123 Street Dr., West Palm Beach, FL 33401</p>
+                                <p>Facebook</p>
+                                <p>Twitter</p>
+                                <p>Instagram</p>
                                 
                                 
                             </div>
