@@ -115,7 +115,7 @@
         background-color: grey;
         
         
-        @include breakpoint(max-width 1920px) {
+        @include breakpoint(min-width 1920px) {
                  min-height: 697px;
                 
             }
