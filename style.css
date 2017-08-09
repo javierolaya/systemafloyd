@@ -502,7 +502,7 @@ h3 {
 #footer-bottom {
   padding: 1% 0;
   background-color: #003D4C; }
-  #footer-bottom .footer-section logo {
+  #footer-bottom .footer-section_logo {
     background-repeat: no-repeat;
     background-position: center right;
     background-image: url(/wp-content/uploads/2017/08/Logo.png); }

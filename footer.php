@@ -14,7 +14,7 @@ if ( ! is_page_template( 'page-template-blank.php' ) ) : ?>
       
                     <div id="footer-bottom">
                         <div class="container clearfix">
-                            <div class="footer-section logo">
+                            <div class="footer-section-logo">
                              
                             </div>
                             
