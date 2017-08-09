@@ -14,7 +14,7 @@ if ( ! is_page_template( 'page-template-blank.php' ) ) : ?>
       
                     <div id="footer-bottom">
                         <div class="container clearfix">
-                            <div class="footer-section logo">
+                            <div class="logo">
                               <img src="http://systemafloyd.com/wp-content/uploads/2017/08/Logo.png">
                             </div>
                             
