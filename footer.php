@@ -14,30 +14,13 @@ if ( ! is_page_template( 'page-template-blank.php' ) ) : ?>
       
                     <div id="footer-bottom">
                         <div class="container clearfix">
-                            <div class="footer-section-logo">
+                            <div class="footer_logo">
                               <img src="http://systemafloyd.com/wp-content/uploads/2017/08/Logo.png">
                             </div>
                             
                             <div class="footer-section news">
-                                <h2>NEWS</h2>
-                                <?php
-                                $output = '<div id="Home-News">';
-                                $args = array(
-                                'post_type' => 'post',
-                                'posts_per_page' => 1,
-                                'order' => 'DES'
-                                );
-                                $query = new WP_Query( $args );
-                                if ( $query->have_posts() ) :
-                                    $query->the_post();
-                                    $output .= '<div class="news-article">';
-                                        $output .= '<div class="article-title"><h3>' . apply_filters('the_title', get_the_title()) . '</h3></div>';
-                                        $output .= '<a class="read-more" href="'. get_permalink() .'">Read More</a>';
-                                    $output .= '</div>';
-                                endif;
-                                $output .= '</div>';
-                                echo($output);
-                            ?>
+                                <h2>Contact Us</h2>
+                                
                             </div>
                         </div>
                         <!-- .container -->

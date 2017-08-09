@@ -94,9 +94,19 @@
     padding: 1% 0;
     background-color: $blue;
     
-    .footer-section_logo
+    
+.footer-section {
+    width: 33.33333%;
+    padding: 0 2.5%;
+    min-height: 150px;
+    float: left;
+    }
+    
+    .footer_logo
     
     {
-       
+           padding: 0% 2% 0%;
     }
+    
+    
 }
