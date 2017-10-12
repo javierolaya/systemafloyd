@@ -519,7 +519,8 @@ h3 {
   #footer-bottom a {
     font-size: 2.2em;
     color: white;
-    line-height: 2; }
+    line-height: 2;
+    display: block; }
 
 /* ==========================================================================
    Home page
