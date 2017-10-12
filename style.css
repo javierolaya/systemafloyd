@@ -512,7 +512,8 @@ h3 {
   #footer-bottom .logo {
     padding: 0% 2% 0%; }
   #footer-bottom .aboutus p {
-    line-height: 1.3; }
+    line-height: 1.3;
+    padding-bottom: 0; }
   #footer-bottom h2 {
     color: white;
     padding-bottom: 5%; }
