@@ -20,9 +20,9 @@ if ( ! is_page_template( 'page-template-blank.php' ) ) : ?>
                             
                             <div class="footer-section contactus">
                                 <h2>Contact Us</h2>
-                                <p>t. 561.123.4567</p>
+                                <p>t. 561.373.5208</p>
                                 <p>e. info@systemafloyd.com</p>
-                                <p>a. 123 Street Dr., West Palm Beach, FL 33401</p>
+                                <p>a. 435 6th Street, West Palm Beach, FL 33401</p>
                                 
                                 
                             </div>
@@ -30,14 +30,13 @@ if ( ! is_page_template( 'page-template-blank.php' ) ) : ?>
                             <div class="footer-section followus">
                                 <h2>Follow Us</h2>
                                 <p>Facebook</p>
-                                <p>Twitter</p>
                                 <p>Instagram</p>
                                 
                                 
                             </div>
                             <div class="footer-section aboutus">
                                 <h2>About Us</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo </p>
+                                <p>Tom specializes in working with children. He has great success training them physically and mentally, helping them improve their attention, behavior and self-esteem issues in a positive way.</p>
                                 
                                 
                             </div>
