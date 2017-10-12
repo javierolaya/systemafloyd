@@ -29,8 +29,8 @@ if ( ! is_page_template( 'page-template-blank.php' ) ) : ?>
                             
                             <div class="footer-section followus">
                                 <h2>Follow Us</h2>
-                                <p>Facebook</p><a class="element" href="https://www.facebook.com/floydsystema/"</a>
-                                <p>Instagram<a href="https://www.instagram.com/tommy_floyd1/" target="_blank"></p>
+                                <p>Facebook</p>
+                                <p>Instagram</p>
                                 
                                 
                                 
