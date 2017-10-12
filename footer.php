@@ -22,7 +22,6 @@ if ( ! is_page_template( 'page-template-blank.php' ) ) : ?>
                                 <h2>Contact Us</h2>
                                 <p>t. 561.373.5208</p>
                                 <a href="mailto:info@systemafloyd.com"> e. info@systemafloyd.com</a>
-                                <p>e. info@systemafloyd.com</p>
                                 <p>a. 435 6th Street, West Palm Beach, FL 33401</p>
                                 
                                 
