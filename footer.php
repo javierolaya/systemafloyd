@@ -30,6 +30,7 @@ if ( ! is_page_template( 'page-template-blank.php' ) ) : ?>
                             <div class="footer-section followus">
                                 <h2>Follow Us</h2>
                                 <a href="https://www.facebook.com/floydsystema/">Facebook</a>
+                                </br>
                                 <a href="https://www.instagram.com/tommy_floyd1/">Instagram</a>
                                 
                                 
