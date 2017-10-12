@@ -168,7 +168,14 @@
             @include breakpoint(max-width 980px) {
                 margin-bottom: 0;
             }
+        
+        .video {
+        width: 460; 
+        height: 259;
+        }
     }
+    
+    
 }
 
  .wellnessbox {
