@@ -937,6 +937,15 @@ h3 {
   @media (min-width: 1920px) {
     .systema .greybox {
       min-height: 697px; } }
+  @media (max-width: 1800px) {
+    .systema .greybox {
+      width: 100%; } }
+  @media (max-width: 1080px) {
+    .systema .greybox {
+      width: 100%; } }
+  @media (max-width: 980px) {
+    .systema .greybox {
+      margin-bottom: 0; } }
 
 .wellnessbox {
   background-color: #003D4C;

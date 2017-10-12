@@ -152,9 +152,21 @@
         background-color: grey;
         
         
+        
         @include breakpoint(min-width 1920px) {
                  min-height: 697px;
-                
+                }
+        
+         @include breakpoint(max-width 1800px) {
+                    width: 100%;
+            }
+        
+            @include breakpoint(max-width 1080px) {
+                    width: 100%;
+            }
+        
+            @include breakpoint(max-width 980px) {
+                margin-bottom: 0;
             }
     }
 }
