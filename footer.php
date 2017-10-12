@@ -21,8 +21,8 @@ if ( ! is_page_template( 'page-template-blank.php' ) ) : ?>
                             <div class="footer-section contactus">
                                 <h2>Contact Us</h2>
                                 <p>t. 561.373.5208</p>
-                                <a href="mailto:info@systemafloyd.com">e. info@systemafloyd.com</a>
                                 <p>a. 435 6th Street, West Palm Beach, FL 33401</p>
+                                <a href="mailto:info@systemafloyd.com">e. info@systemafloyd.com</a>
                                 
                                 
                             </div>
