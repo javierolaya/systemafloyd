@@ -31,6 +31,7 @@ if ( ! is_page_template( 'page-template-blank.php' ) ) : ?>
                                 <h2>Follow Us</h2>
                                 <p>Facebook <href="https://www.facebook.com/floydsystema/" target="_blank"></p>
                                 <p>Instagram<href="https://www.instagram.com/tommy_floyd1/" target="_blank"></p>
+                                <a class="element" href="https://twitter.com/wantmangroup" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
                                 
                                 
                             </div>
