@@ -124,6 +124,7 @@ abbr[title] {
   /* 1 */
   text-decoration: underline;
   /* 2 */
+  -webkit-text-decoration: underline dotted;
   text-decoration: underline dotted;
   /* 2 */ }
 
@@ -870,6 +871,30 @@ h3 {
     line-height: 1.5; }
     @media (max-width: 980px) {
       .systema .bluebox p {
+        text-align: center;
+        padding: 3% 0% 2%; } }
+
+.systema .wellnessbox {
+  background-color: #003D4C;
+  /*padding: 8.6% 13.4%;*/
+  padding: 9.55% 13.4%;
+  margin-right: 0; }
+  @media (max-width: 980px) {
+    .systema .wellnessbox {
+      padding: 6.36% 9%; } }
+  .systema .wellnessbox h2 {
+    color: white;
+    font-size: 8em; }
+    @media (max-width: 980px) {
+      .systema .wellnessbox h2 {
+        font-size: 6em;
+        text-align: center; } }
+  .systema .wellnessbox p {
+    color: white;
+    font-size: 2em;
+    line-height: 1.5; }
+    @media (max-width: 980px) {
+      .systema .wellnessbox p {
         text-align: center;
         padding: 3% 0% 2%; } }
 
