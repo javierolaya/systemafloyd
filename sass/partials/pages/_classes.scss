@@ -108,10 +108,7 @@
         background-image: url(/wp-content/uploads/2017/07/IMG_3720_2.jpg);
         
        
-         @include breakpoint(max-width 1800px) {
-                    width: 100%;
-                    in-height: 707px;
-            }
+      
         
         
         @include breakpoint(max-width 1080px) {
@@ -127,6 +124,11 @@
         opacity: 0.8;
         text-align: center;
         
+           @include breakpoint(max-width 1650px) {
+                    width: 100%;
+                    in-height: 707px;
+            }    
+            
          @include breakpoint(max-width 980px) {
                      margin: 4% 3% 0% 3%;
                 
