@@ -780,6 +780,11 @@ h3 {
         @include breakpoint(1300px 1876px) {
             padding: 9% 5%;
         }*/ }
+  @media (min-width: 980px) {
+    .testimonials .text_box {
+      width: 50% !important;
+      min-height: 417px;
+      margin-right: 0; } }
   .testimonials .text_box h4 {
     text-align: center;
     color: white;

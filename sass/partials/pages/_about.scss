@@ -195,6 +195,12 @@
             padding: 9% 5%;
         }*/
         
+          @include breakpoint(min-width 980px) {
+            width: 50% !important;
+            min-height: 417px;
+            margin-right: 0;
+        }
+        
         h4 {
             text-align: center;
             color:white;
