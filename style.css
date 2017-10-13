@@ -751,7 +751,7 @@ h3 {
             min-height: 585px;
             margin-right: 0;
         }*/ }
-  @media (min-width: 1300px) {
+  @media (max-width: 1300px) {
     .testimonials .class {
       min-height: 683px; } }
   @media (max-width: 480px) {
@@ -766,7 +766,7 @@ h3 {
   .testimonials .picture1 .et_pb_row_4col > .et_pb_column.et_pb_column_1_4 {
     width: 50% !important;
     min-height: 440px;
-    margin-right: 0; }
+    margin-right: 0 !important; }
 
 .testimonials .text_box {
   background-color: #c3c5c8;

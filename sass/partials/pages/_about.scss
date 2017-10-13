@@ -155,7 +155,7 @@
 
 
         
-        @include breakpoint(min-width 1300px) {
+        @include breakpoint(max-width 1300px) {
             min-height: 683px;
             
         }
@@ -181,7 +181,7 @@
       @include breakpoint(max-width 980px) @include breakpoint(max-width 980px) .et_pb_row_4col > .et_pb_column.et_pb_column_1_4,  {
             width: 50% !important;
             min-height: 440px;
-            margin-right: 0;
+            margin-right: 0 !important;
         }
         
         
