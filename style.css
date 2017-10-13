@@ -738,7 +738,8 @@ h3 {
 
 .testimonials .class {
   width: 50%;
-  padding: 9% 0%;
+  /*padding: 9% 0%;*/
+  padding: 7% 3% 4% 3%;
   min-height: 300px;
   margin: 0 !important; }
   @media (min-width: 980px) {
