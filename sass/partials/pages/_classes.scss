@@ -170,8 +170,10 @@
             }
         
         .video {
-        width: 460; 
-        height: 259;
+        .fluid-width-video-wrapper {
+    /* width: 100%; */
+    /* position: relative; */
+    padding-top: 67%;
         }
     }
     
@@ -335,3 +337,4 @@
         
 }
 
+}
