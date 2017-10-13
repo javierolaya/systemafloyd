@@ -743,7 +743,7 @@ h3 {
   margin: 0 !important; }
   @media (min-width: 980px) {
     .testimonials .class {
-      width: 25%;
+      /*width: 25%;*/
       min-height: 400px;
       margin-right: 0; } }
   @media (min-width: 1300px) {
