@@ -1000,7 +1000,7 @@ h3 {
   .systema .greybox .video .fluid-width-video-wrapper {
     /* width: 100%; */
     /* position: relative; */
-    padding-top: 67%; }
+    padding-top: 67% !important; }
 
 .wellnessbox {
   background-color: #003D4C;
