@@ -161,11 +161,11 @@
         }
         
         
-         /*@include breakpoint(max-width 980px) {
-            width: 50% !important;
-            min-height: 585px;
+         @include breakpoint(max-width 980px) {
+            width: 25% !important;
+            min-height: 367px;
             margin-right: 0;
-        }*/
+        }
         
         @include breakpoint(max-width 480px) {
             width: 25% !important;
