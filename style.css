@@ -949,7 +949,8 @@ h3 {
   @media (max-width: 1800px) {
     .systema #practical_bg {
       width: 100%;
-      min-height: 726px; } }
+      min-height: 707x;
+      /*min-height: 726px;*/ } }
   @media (max-width: 1080px) {
     .systema #practical_bg {
       background-position: center;
