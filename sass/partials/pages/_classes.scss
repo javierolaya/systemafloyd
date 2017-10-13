@@ -98,7 +98,7 @@
     
     
     #practical_bg {
-        min-height: 726px;
+        min-height: 723px;
         width: 50%;    
         position: relative;
         padding: 5.1% !important;
@@ -108,15 +108,20 @@
         background-image: url(/wp-content/uploads/2017/07/IMG_3720_2.jpg);
         
        
-         @include breakpoint(max-width 1800px) {
+         /*@include breakpoint(max-width 1800px) {
                     width: 100%;
              min-height: 726px;
-            }
+            }*/
         
         
         @include breakpoint(max-width 1080px) {
                 background-position: center;
                 min-height: 340px;
+            }
+        
+         @include breakpoint(max-width 980px) {
+                    width: 100%;
+             min-height: 707px;
             }
 
         
