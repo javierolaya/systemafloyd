@@ -124,10 +124,7 @@
         opacity: 0.8;
         text-align: center;
         
-           @include breakpoint(max-width 1650px) {
-                    width: 100%;
-                    in-height: 707px;
-            }    
+        
             
          @include breakpoint(max-width 980px) {
                      margin: 4% 3% 0% 3%;
