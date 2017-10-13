@@ -796,7 +796,8 @@ h3 {
             }*/ }
 
 .testimonials .text_box2 {
-  background-color: #003D4C;
+  /*background-color: $blue;*/
+  background-color: #728472;
   width: 25%;
   /* @include breakpoint(min-width 1300px) {
             padding: 9% 3%;
