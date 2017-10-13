@@ -532,7 +532,7 @@ h3 {
    ========================================================================== */
 /* Styles for the Temp Home page */
 .home .et_pb_section, .home {
-  background-color: #003D4C; }
+  background-color: none; }
 
 .home #Temp-Home .text p {
   line-height: 1.2;
