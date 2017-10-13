@@ -195,8 +195,8 @@
             padding: 9% 5%;
         }*/
         
-          @include breakpoint(min-width 980px) {
-            width: 50% !important;
+          @include breakpoint(max-width 980px) {
+            width: 50%;
             min-height: 417px;
             margin-right: 0;
         }
