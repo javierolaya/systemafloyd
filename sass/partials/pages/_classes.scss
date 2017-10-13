@@ -282,9 +282,11 @@
             color: $blue;
             font-size: 8em;
             text-transform: uppercase;
+            padding-bottom: 5%;     
                  
              @include breakpoint(max-width 980px) {
                 font-size: 5em;
+                 padding-bottom: 8%;
                 
             }
         }

@@ -1060,10 +1060,12 @@ h3 {
     .advantages .systema_children h2 {
       color: #003D4C;
       font-size: 8em;
-      text-transform: uppercase; }
+      text-transform: uppercase;
+      padding-bottom: 5%; }
       @media (max-width: 980px) {
         .advantages .systema_children h2 {
-          font-size: 5em; } }
+          font-size: 5em;
+          padding-bottom: 8%; } }
     .advantages .systema_children p {
       padding: 1% 18% 4% !important;
       font-size: 2em;
