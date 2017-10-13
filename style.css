@@ -946,10 +946,15 @@ h3 {
   background-size: cover;
   background-position: center right;
   background-image: url(/wp-content/uploads/2017/07/IMG_3720_2.jpg); }
+  @media (max-width: 2600px) {
+    .systema #practical_bg {
+      min-height: 734px;
+      background-position: center; } }
   @media (max-width: 2100px) {
     .systema #practical_bg {
       width: 50%;
-      min-height: 848px;
+      min-height: 881px;
+      background-position: center;
       /*min-height: 726px;*/ } }
   @media (max-width: 1800px) {
     .systema #practical_bg {

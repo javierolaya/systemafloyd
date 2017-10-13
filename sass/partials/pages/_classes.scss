@@ -107,10 +107,17 @@
         background-position: center right;
         background-image: url(/wp-content/uploads/2017/07/IMG_3720_2.jpg);
         
+         @include breakpoint(max-width 2600px) {
+             
+             min-height: 734px;
+             background-position: center;
+            
+            }
        
          @include breakpoint(max-width 2100px) {
              width: 50%;
-             min-height: 848px;
+             min-height: 881px;
+             background-position: center;
             /*min-height: 726px;*/
             }
         
