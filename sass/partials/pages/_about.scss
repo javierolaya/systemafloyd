@@ -155,9 +155,9 @@
             min-height: 626px;
         }
         
-        @include breakpoint(min-width 980px) {
+        @include breakpoint(max-width 980px) {
             width: 50%;
-            min-height: 417px;
+            min-height: 585px;
             margin-right: 0;
         }
         
