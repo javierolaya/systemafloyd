@@ -98,7 +98,7 @@
     
     
     #practical_bg {
-        min-height: 684px;
+        min-height: 726px;
         width: 50%;    
         position: relative;
         padding: 5.1% !important;
@@ -110,6 +110,7 @@
        
          @include breakpoint(max-width 1800px) {
                     width: 100%;
+                    in-height: 707px;
             }
         
         

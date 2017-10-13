@@ -938,7 +938,7 @@ h3 {
         padding: 3% 0% 2%; } }
 
 .systema #practical_bg {
-  min-height: 684px;
+  min-height: 726px;
   width: 50%;
   position: relative;
   padding: 5.1% !important;
@@ -948,7 +948,8 @@ h3 {
   background-image: url(/wp-content/uploads/2017/07/IMG_3720_2.jpg); }
   @media (max-width: 1800px) {
     .systema #practical_bg {
-      width: 100%; } }
+      width: 100%;
+      in-height: 707px; } }
   @media (max-width: 1080px) {
     .systema #practical_bg {
       background-position: center;
