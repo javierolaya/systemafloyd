@@ -953,11 +953,8 @@ h3 {
   @media (max-width: 1080px) {
     .systema #practical_bg {
       background-position: center;
-      min-height: 340px; } }
-  @media (max-width: 980px) {
-    .systema #practical_bg {
-      width: 100%;
-      min-height: 707px; } }
+      min-height: 340px;
+      width: 100%; } }
   .systema #practical_bg .example {
     background-color: white;
     padding: 9.9%;

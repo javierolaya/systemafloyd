@@ -117,12 +117,10 @@
         @include breakpoint(max-width 1080px) {
                 background-position: center;
                 min-height: 340px;
+             width: 100%;
             }
         
-         @include breakpoint(max-width 980px) {
-                    width: 100%;
-             min-height: 707px;
-            }
+       
 
         
         .example  {  
