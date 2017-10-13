@@ -148,34 +148,29 @@
         width: 50%;
         /*padding: 9% 0%;*/
         padding: 7% 3% 4% 3%;
-        min-height: 584px;
+        min-height: 591px;
         margin: 0 !important;
         
         
-        /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-            width: 50%;
-            min-height: 585px;
-            margin-right: 0;
-}
+
 
         
-       /* @include breakpoint(min-width 1300px) {
+        @include breakpoint(min-width 1300px) {
             min-height: 626px;
-        }*/
+        }
         
         
-        /* @include breakpoint(max-width 980px) {
+         @include breakpoint(max-width 980px) {
             width: 50%;
             min-height: 585px;
             margin-right: 0;
-        }*/
+        }
         
-       /* @include breakpoint(max-width 980px) {
+        @include breakpoint(max-width 980px) {
             width: 50%;
             min-height: 585px;
             margin-right: 0;
-        }*/
+        }
         
     }
     .picture1 {
