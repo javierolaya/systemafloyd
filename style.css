@@ -778,11 +778,10 @@ h3 {
         @include breakpoint(1300px 1876px) {
             padding: 9% 5%;
         }*/ }
-  @media (max-width: 980px) {
-    .testimonials .text_box {
-      width: 100% !important;
-      min-height: 500px;
-      margin-right: 0; } }
+  .testimonials .text_box .et_pb_row_4col > .et_pb_column.et_pb_column_1_4 {
+    width: 100% !important;
+    min-height: 500px;
+    margin-right: 0; }
   .testimonials .text_box h4 {
     text-align: center;
     color: white;

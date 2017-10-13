@@ -197,7 +197,7 @@
             padding: 9% 5%;
         }*/
         
-           @include breakpoint(max-width 980px) {
+           @include breakpoint(max-width 980px) .et_pb_row_4col > .et_pb_column.et_pb_column_1_4,  {
             width: 100% !important;
             min-height: 500px;
             margin-right: 0;
