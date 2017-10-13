@@ -945,11 +945,11 @@ h3 {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center right;
-  background-image: url(/wp-content/uploads/2017/07/IMG_3720_2.jpg);
-  /*@include breakpoint(max-width 1800px) {
-                    width: 100%;
-             min-height: 726px;
-            }*/ }
+  background-image: url(/wp-content/uploads/2017/07/IMG_3720_2.jpg); }
+  @media (max-width: 1800px) {
+    .systema #practical_bg {
+      width: 100%;
+      min-height: 726px; } }
   @media (max-width: 1080px) {
     .systema #practical_bg {
       background-position: center;
