@@ -509,6 +509,10 @@ h3 {
     padding: 0 2.5%;
     min-height: 150px;
     float: left; }
+    @media (max-width: 980px) {
+      #footer-bottom .footer-section {
+        width: 100%;
+        padding: 2.5%; } }
   #footer-bottom .logo {
     padding: 0% 2% 0%; }
   #footer-bottom .aboutus p {
