@@ -783,6 +783,7 @@ h3 {
         }*/ }
   @media (max-width: 1300px) {
     .testimonials .text_box {
+      padding: 14% 3% 4% 3%;
       width: 50%; } }
   .testimonials .text_box .et_pb_row_4col > .et_pb_column.et_pb_column_1_4 {
     width: 50% !important;
@@ -822,6 +823,7 @@ h3 {
         }*/ }
   @media (max-width: 1300px) {
     .testimonials .text_box2 {
+      padding: 14% 3% 4% 3%;
       width: 50%; } }
   .testimonials .text_box2 h4 {
     text-align: center;
