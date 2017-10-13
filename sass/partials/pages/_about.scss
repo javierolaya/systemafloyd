@@ -177,9 +177,9 @@
         background-image: url(/wp-content/uploads/2017/07/George.png);
         width: 25%;
       
-      @include breakpoint(max-width 980px) {
-            width: 100% !important;
-            min-height: 500px;
+      @include breakpoint(max-width 980px) @include breakpoint(max-width 980px) .et_pb_row_4col > .et_pb_column.et_pb_column_1_4,  {
+            width: 50% !important;
+            min-height: 440px;
             margin-right: 0;
         }
         
@@ -198,8 +198,8 @@
         }*/
         
            @include breakpoint(max-width 980px) .et_pb_row_4col > .et_pb_column.et_pb_column_1_4,  {
-            width: 100% !important;
-            min-height: 500px;
+            width: 50% !important;
+            min-height: 440px;
             margin-right: 0;
         }
         
