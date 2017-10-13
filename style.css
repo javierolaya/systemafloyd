@@ -753,7 +753,8 @@ h3 {
         }*/ }
   @media (min-width: 1300px) {
     .testimonials .class {
-      min-height: 626px; } }
+      min-height: 626px;
+      padding: 2% 3% 4% 3%; } }
   @media (max-width: 480px) {
     .testimonials .class {
       width: 25% !important;
