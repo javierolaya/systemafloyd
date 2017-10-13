@@ -175,6 +175,7 @@
         
         @include breakpoint(min-width 1920px) {
                  min-height: 697px;
+             
                 }
         
          @include breakpoint(max-width 1800px) {
@@ -193,7 +194,7 @@
         .fluid-width-video-wrapper {
     /* width: 100%; */
     /* position: relative; */
-    padding-top: 56% !important;
+    padding-top: 56.4% !important;
             
              
        
