@@ -751,7 +751,7 @@ h3 {
       min-height: 626px; } }
   @media (max-width: 980px) {
     .testimonials .class {
-      width: 50%;
+      width: 50% !important;
       min-height: 585px;
       margin-right: 0; } }
 
