@@ -764,7 +764,7 @@ h3 {
 .testimonials .picture1 {
   background-image: url(/wp-content/uploads/2017/07/George.png);
   width: 25%; }
-  @media (max-width: 1300px) {
+  @media (max-width: 1450px) {
     .testimonials .picture1 {
       width: 50%; } }
   .testimonials .picture1 .et_pb_row_4col > .et_pb_column.et_pb_column_1_4 {
@@ -781,7 +781,7 @@ h3 {
         @include breakpoint(1300px 1876px) {
             padding: 9% 5%;
         }*/ }
-  @media (max-width: 1300px) {
+  @media (max-width: 1450px) {
     .testimonials .text_box {
       padding: 14% 3% 4% 3%;
       width: 50%; } }
@@ -807,7 +807,7 @@ h3 {
                
                  
             }*/ }
-  @media (max-width: 1300px) {
+  @media (max-width: 1450px) {
     .testimonials .picture2 {
       width: 50%; } }
 
@@ -821,7 +821,7 @@ h3 {
         @include breakpoint(1300px 1876px) {
             padding: 9% 5%;
         }*/ }
-  @media (max-width: 1300px) {
+  @media (max-width: 1450px) {
     .testimonials .text_box2 {
       padding: 14% 3% 4% 3%;
       width: 50%; } }

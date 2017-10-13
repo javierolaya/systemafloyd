@@ -179,7 +179,7 @@
         background-image: url(/wp-content/uploads/2017/07/George.png);
         width: 25%;
       
-         @include breakpoint(max-width 1300px) {
+         @include breakpoint(max-width 1450px) {
             
             width: 50%
             
@@ -205,7 +205,7 @@
             padding: 9% 5%;
         }*/
         
-         @include breakpoint(max-width 1300px) {
+         @include breakpoint(max-width 1450px) {
            padding: 14% 3% 4% 3%;
             width: 50%
             
@@ -241,7 +241,7 @@
                  
             }*/
         
-         @include breakpoint(max-width 1300px) {
+         @include breakpoint(max-width 1450px) {
             
             width: 50%
             
@@ -253,7 +253,7 @@
         width: 25%;
         
         
-         @include breakpoint(max-width 1300px) {
+         @include breakpoint(max-width 1450px) {
             padding: 14% 3% 4% 3%;
             width: 50%
             
