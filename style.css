@@ -531,27 +531,18 @@ h3 {
    Home page
    ========================================================================== */
 /* Styles for the Temp Home page */
-/*.home {
-    header,
-    footer {
-        display: none;
-    }
-    .et_pb_section,
-    & {
-        background-color: #003D4C;
-    }
-    #Temp-Home {
-        .text p {
-            line-height: 1.2;
-            font-size: 3em;
-            color: #FFF;
-        }
-        .et_pb_row {
-            width: 80%;
-            max-width: 1080px;
-        }
-    }
-}*/
+.home .et_pb_section, .home {
+  background-color: #003D4C; }
+
+.home #Temp-Home .text p {
+  line-height: 1.2;
+  font-size: 3em;
+  color: #FFF; }
+
+.home #Temp-Home .et_pb_row {
+  width: 80%;
+  max-width: 1080px; }
+
 /* Styles for the Home page */
 .hero .systema {
   padding: 9% 0 11%; }
