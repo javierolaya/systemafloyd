@@ -939,7 +939,7 @@ h3 {
 
 .systema #practical_bg {
   min-height: 723px;
-  width: 100%;
+  width: 50%;
   position: relative;
   padding: 5.1% !important;
   background-repeat: no-repeat;
@@ -956,6 +956,10 @@ h3 {
     margin: 7% 12% 0% 20%;
     opacity: 0.8;
     text-align: center; }
+    @media (max-width: 1650px) {
+      .systema #practical_bg .example {
+        width: 100%;
+        min-height: 707px; } }
     @media (max-width: 980px) {
       .systema #practical_bg .example {
         margin: 4% 3% 0% 3%; } }
