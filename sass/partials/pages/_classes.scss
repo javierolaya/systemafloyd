@@ -127,7 +127,9 @@
              width: 100%;
             }
         
-       
+           @include breakpoint(min-width 980px) {
+                min-height: 707px;
+            }
 
         
         .example  {  

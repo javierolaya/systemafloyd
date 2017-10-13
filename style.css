@@ -961,6 +961,9 @@ h3 {
       background-position: center;
       min-height: 340px;
       width: 100%; } }
+  @media (min-width: 980px) {
+    .systema #practical_bg {
+      min-height: 707px; } }
   .systema #practical_bg .example {
     background-color: white;
     padding: 9.9%;
