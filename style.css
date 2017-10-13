@@ -1002,27 +1002,27 @@ h3 {
     /* position: relative; */
     padding-top: 67%; }
 
-.systema .wellnessbox {
+.wellnessbox {
   background-color: #003D4C;
   /*padding: 8.6% 13.4%;*/
   padding: 2.55% 12.4%;
   margin-right: 0; }
   @media (max-width: 980px) {
-    .systema .wellnessbox {
+    .wellnessbox {
       padding: 6.36% 9%; } }
-  .systema .wellnessbox h2 {
+  .wellnessbox h2 {
     color: white;
     font-size: 8em; }
     @media (max-width: 980px) {
-      .systema .wellnessbox h2 {
+      .wellnessbox h2 {
         font-size: 6em;
         text-align: center; } }
-  .systema .wellnessbox p {
+  .wellnessbox p {
     color: white;
     font-size: 2em;
     line-height: 1.5; }
     @media (max-width: 980px) {
-      .systema .wellnessbox p {
+      .wellnessbox p {
         text-align: center;
         padding: 3% 0% 2%; } }
 
