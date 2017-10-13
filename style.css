@@ -795,6 +795,7 @@ h3 {
 
 .testimonials .text_box2 {
   background-color: #003D4C;
+  width: 25%;
   /* @include breakpoint(min-width 1300px) {
             padding: 9% 3%;
         }
@@ -812,6 +813,7 @@ h3 {
 
 .testimonials .picture3 {
   background-image: url(/wp-content/uploads/2017/07/George.png);
+  width: 25%;
   /* @include breakpoint(max-width 980px) {
             
                 width: 100%;
@@ -821,6 +823,7 @@ h3 {
 
 .testimonials .text_box3 {
   background-color: #728472;
+  width: 25%;
   /* @include breakpoint(1300px 1876px) {
             padding: 9% 5%;
         }*/ }
@@ -835,6 +838,7 @@ h3 {
 
 .testimonials .picture4 {
   background-image: url(/wp-content/uploads/2017/07/George.png);
+  width: 25%;
   /*@include breakpoint(max-width 980px) {
             
                 width: 100%;
