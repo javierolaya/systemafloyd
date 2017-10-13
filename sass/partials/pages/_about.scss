@@ -157,6 +157,7 @@
         
         @include breakpoint(max-width 1300px) {
             min-height: 683px;
+            width: 50%
             
         }
         
@@ -197,6 +198,12 @@
         @include breakpoint(1300px 1876px) {
             padding: 9% 5%;
         }*/
+        
+         @include breakpoint(max-width 1300px) {
+            min-height: 683px;
+            width: 50%
+            
+        }
         
            @include breakpoint(max-width 980px) .et_pb_row_4col > .et_pb_column.et_pb_column_1_4,  {
             width: 50% !important;
