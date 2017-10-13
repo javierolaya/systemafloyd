@@ -195,6 +195,10 @@
     /* position: relative; */
     padding-top: 56% !important;
         }
+        
+        @include breakpoint(max-width 1800px) {
+                    padding-top: 67%;
+            }
     }
     
     
