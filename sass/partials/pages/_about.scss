@@ -9,6 +9,14 @@
     background-size: cover;
     background-image: url(/wp-content/uploads/2017/07/IMG_7155.jpg);
     
+        
+  @include breakpoint(max-width 1550px) {
+       
+            padding: 1% 2% 2%!important;
+            background-position: left;
+                 
+            }
+    
   @include breakpoint(max-width 1150px) {
        
             padding: 1% 2% 2%!important;
@@ -143,14 +151,16 @@
         min-height: 300px;
         margin: 0 !important;
         
-        @include breakpoint(min-width 980px) {
-            /*width: 25%;*/
-            min-height: 400px;
-            margin-right: 0;
-        }
         @include breakpoint(min-width 1300px) {
             min-height: 626px;
         }
+        
+        @include breakpoint(min-width 980px) {
+            width: 50%;
+            min-height: 400px;
+            margin-right: 0;
+        }
+        
     }
     .picture1 {
         background-image: url(/wp-content/uploads/2017/07/George.png);

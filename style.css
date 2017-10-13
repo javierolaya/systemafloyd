@@ -651,6 +651,10 @@ h3 {
   -webkit-background-size: cover;
   background-size: cover;
   background-image: url(/wp-content/uploads/2017/07/IMG_7155.jpg); }
+  @media (max-width: 1550px) {
+    .Bio {
+      padding: 1% 2% 2% !important;
+      background-position: left; } }
   @media (max-width: 1150px) {
     .Bio {
       padding: 1% 2% 2% !important;
@@ -742,14 +746,14 @@ h3 {
   padding: 7% 3% 4% 3%;
   min-height: 300px;
   margin: 0 !important; }
-  @media (min-width: 980px) {
-    .testimonials .class {
-      /*width: 25%;*/
-      min-height: 400px;
-      margin-right: 0; } }
   @media (min-width: 1300px) {
     .testimonials .class {
       min-height: 626px; } }
+  @media (min-width: 980px) {
+    .testimonials .class {
+      width: 50%;
+      min-height: 400px;
+      margin-right: 0; } }
 
 .testimonials .picture1 {
   background-image: url(/wp-content/uploads/2017/07/George.png);
