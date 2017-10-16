@@ -3,7 +3,7 @@
    ========================================================================== */
 
 
-.systema {
+#systema {
     .children {
         margin-right: 0;
         width: 50%;
@@ -194,7 +194,7 @@
         .fluid-width-video-wrapper {
     /* width: 100%; */
     /* position: relative; */
-    padding-top: 62% !important;
+    padding-top: 62%;
             
   @include breakpoint(max-width 2600px) {
             padding-top: 67%;
