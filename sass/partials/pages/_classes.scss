@@ -201,6 +201,9 @@
             }
              
        
+  @include breakpoint(max-width 1780px) {
+            padding-top: 75.5% !important;
+            }    
         }
      
        
