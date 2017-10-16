@@ -183,8 +183,8 @@
 
  .blueboxadults {
         background-color: $blue;
-        width:50%;
-        margin-right: 0;
+        width:50% !important;
+        margin-right: 0 !important;
         
 
          @include breakpoint(max-width 980px) {
