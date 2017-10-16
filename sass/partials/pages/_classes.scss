@@ -196,6 +196,9 @@
     /* position: relative; */
     padding-top: 56.4% !important;
             
+        @include breakpoint(max-width 2100px) {
+        padding-top: 62% !important;
+                }
              
        
         }
