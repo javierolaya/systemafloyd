@@ -155,27 +155,7 @@
                 margin-bottom: 0;
             }
         
-    .video {
-        .fluid-width-video-wrapper {
-    /* width: 100%; */
-    /* position: relative; */
-    padding-top: 62%;
-            
-  @include breakpoint(max-width 2600px) {
-            padding-top: 67%;
-            }
-             
-       
-  @include breakpoint(max-width 1900px) {
-            padding-top: 75.5%;
-            }    
-        }
-     
-       
-        
-       
-    }
-    
+
     
 }
    
@@ -183,8 +163,9 @@
 
  .blueboxadults {
         background-color: $blue;
-        width: 112% !important;
+        width: 110% !important;
         margin-right: 0 !important;
+        padding: 17.5%;
         
 
          @include breakpoint(max-width 980px) {
@@ -215,6 +196,28 @@
             }
         }
     }
+
+ .video {
+        .fluid-width-video-wrapper {
+    /* width: 100%; */
+    /* position: relative; */
+    padding-top: 64.5%;
+            
+  @include breakpoint(max-width 2600px) {
+            padding-top: 67%;
+            }
+             
+       
+  @include breakpoint(max-width 1900px) {
+            padding-top: 75.5%;
+            }    
+        }
+     
+       
+        
+       
+    }
+    
    
 
 .wellnessbox {
