@@ -986,8 +986,7 @@ h3 {
 
 .blueboxadults {
   background-color: #003D4C;
-  /*padding: 8.6% 13.4%;*/
-  padding: 14.2% 13.4%;
+  width: 50%;
   margin-right: 0; }
   @media (max-width: 980px) {
     .blueboxadults {
