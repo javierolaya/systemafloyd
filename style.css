@@ -1005,6 +1005,9 @@ h3 {
   @media (max-width: 2600px) {
     .video .fluid-width-video-wrapper {
       padding-top: 67%; } }
+  @media (max-width: 2320px) {
+    .video .fluid-width-video-wrapper {
+      padding-top: 68.7%; } }
   @media (max-width: 1900px) {
     .video .fluid-width-video-wrapper {
       padding-top: 75.5%; } }
