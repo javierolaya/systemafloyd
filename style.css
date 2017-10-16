@@ -909,30 +909,6 @@ h3 {
         text-align: center;
         padding: 3% 0% 2%; } }
 
-.systema .blueboxadults {
-  background-color: #003D4C;
-  /*padding: 8.6% 13.4%;*/
-  padding: 14.2% 13.4%;
-  margin-right: 0; }
-  @media (max-width: 980px) {
-    .systema .blueboxadults {
-      padding: 6.36% 9%; } }
-  .systema .blueboxadults h2 {
-    color: white;
-    font-size: 8em; }
-    @media (max-width: 980px) {
-      .systema .blueboxadults h2 {
-        font-size: 6em;
-        text-align: center; } }
-  .systema .blueboxadults p {
-    color: white;
-    font-size: 2em;
-    line-height: 1.5; }
-    @media (max-width: 980px) {
-      .systema .blueboxadults p {
-        text-align: center;
-        padding: 3% 0% 2%; } }
-
 .systema #practical_bg {
   min-height: 723px;
   width: 50%;
@@ -1007,6 +983,30 @@ h3 {
     @media (max-width: 1900px) {
       .systema .greybox .video .fluid-width-video-wrapper {
         padding-top: 75.5%; } }
+
+.blueboxadults {
+  background-color: #003D4C;
+  /*padding: 8.6% 13.4%;*/
+  padding: 14.2% 13.4%;
+  margin-right: 0; }
+  @media (max-width: 980px) {
+    .blueboxadults {
+      padding: 6.36% 9%; } }
+  .blueboxadults h2 {
+    color: white;
+    font-size: 8em; }
+    @media (max-width: 980px) {
+      .blueboxadults h2 {
+        font-size: 6em;
+        text-align: center; } }
+  .blueboxadults p {
+    color: white;
+    font-size: 2em;
+    line-height: 1.5; }
+    @media (max-width: 980px) {
+      .blueboxadults p {
+        text-align: center;
+        padding: 3% 0% 2%; } }
 
 .wellnessbox {
   background-color: #003D4C;

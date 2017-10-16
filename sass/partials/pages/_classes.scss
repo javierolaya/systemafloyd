@@ -59,41 +59,6 @@
         }
     }
 
-    .blueboxadults {
-        background-color: $blue;
-        /*padding: 8.6% 13.4%;*/
-        padding: 14.2% 13.4%;
-        margin-right: 0;
-        
-
-         @include breakpoint(max-width 980px) {
-                    padding: 6.36% 9%;
-            }
-        
-          h2 {
-            
-            color:white;
-            font-size: 8em;
-              
-            @include breakpoint(max-width 980px) {
-                font-size: 6em;
-                text-align: center;
-            }
-        }
-        
-        p {
-            
-            color:white;
-            font-size: 2em;
-            line-height: 1.5;
-            
-            @include breakpoint(max-width 980px) {
-                
-                text-align: center;
-                padding: 3% 0% 2%;
-            }
-        }
-    }
    
     
     
@@ -215,6 +180,43 @@
 }
    
 }
+
+ .blueboxadults {
+        background-color: $blue;
+        /*padding: 8.6% 13.4%;*/
+        padding: 14.2% 13.4%;
+        margin-right: 0;
+        
+
+         @include breakpoint(max-width 980px) {
+                    padding: 6.36% 9%;
+            }
+        
+          h2 {
+            
+            color:white;
+            font-size: 8em;
+              
+            @include breakpoint(max-width 980px) {
+                font-size: 6em;
+                text-align: center;
+            }
+        }
+        
+        p {
+            
+            color:white;
+            font-size: 2em;
+            line-height: 1.5;
+            
+            @include breakpoint(max-width 980px) {
+                
+                text-align: center;
+                padding: 3% 0% 2%;
+            }
+        }
+    }
+   
 
 .wellnessbox {
          background-color: $blue;
