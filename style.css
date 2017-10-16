@@ -1001,9 +1001,6 @@ h3 {
     /* width: 100%; */
     /* position: relative; */
     padding-top: 56.4% !important; }
-    @media (max-width: 2100px) {
-      .systema .greybox .video .fluid-width-video-wrapper {
-        padding-top: 62% !important; } }
 
 .wellnessbox {
   background-color: #003D4C;
