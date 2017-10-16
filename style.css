@@ -611,19 +611,19 @@ h3 {
     background-color: #E4002B; }
 
 .classes .kids {
-  background-image: url(/wp-content/uploads/2017/07/Kids-Classes.jpg); }
-  @media (min-width: 1300px) {
-    .classes .kids {
-      padding: 9% 3%; } }
+  background-image: url(/wp-content/uploads/2017/07/Kids-Classes.jpg);
+  /*@include breakpoint(min-width 1300px) {
+            padding: 9% 3%;
+        }*/ }
   @media (min-width: 1300px) and (max-width: 1876px) {
     .classes .kids {
       padding: 9% 5%; } }
 
 .classes .adult {
-  background-image: url(/wp-content/uploads/2017/07/Adult-Classes.jpg); }
-  @media (min-width: 1300px) {
-    .classes .adult {
-      padding: 9% 3%; } }
+  background-image: url(/wp-content/uploads/2017/07/Adult-Classes.jpg);
+  /* @include breakpoint(min-width 1300px) {
+            padding: 9% 3%;
+        }*/ }
   @media (min-width: 1300px) and (max-width: 1876px) {
     .classes .adult {
       padding: 9% 5%; } }
