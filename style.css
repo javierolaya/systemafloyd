@@ -570,17 +570,19 @@ h3 {
   .hero .systema p {
     text-align: center;
     margin: 0 auto; }
-  .hero .systema .video_overlay {
-    background-color: #003c4b;
-    position: relative;
-    width: 100%;
-    height: 100%;
-    opacity: 0.20;
-    -moz-opacity: 20%;
-    -webkit-opacity: 20%;
-    z-index: 2; }
-  .hero .systema .mejs-mediaelement {
-    top: -100px !important; }
+
+.hero .overlay {
+  background-color: #003c4b;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  opacity: 0.20;
+  -moz-opacity: 20%;
+  -webkit-opacity: 20%;
+  z-index: 2; }
+
+.hero .mejs-mediaelement {
+  top: -100px !important; }
 
 .about {
   padding: 7% !important;
