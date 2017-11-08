@@ -655,6 +655,16 @@ h3 {
     width: 50% !important;
     padding: 12% 4%; } }
 
+@media only screen and (max-width: 320px) {
+  .systema {
+    padding: 20px 0px 22px; }
+    .systema h1 {
+      font-size: 66px;
+      margin-bottom: 2%;
+      line-height: .8; }
+    .systema p {
+      max-width: 80%; } }
+
 /*About Page*/
 .Bio {
   padding: 9% !important;

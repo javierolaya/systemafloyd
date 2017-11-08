@@ -146,3 +146,24 @@
         padding: 12% 4%;
     }
 }
+
+@media only screen and (max-width : 320px){
+
+  .systema {
+      padding: 20px 0px 22px;
+
+  h1 {
+      font-size: 66px;
+      margin-bottom: 2%;
+      line-height: .8;
+
+
+  }
+  p {
+      max-width: 80%;
+
+  }
+
+
+  }
+}
