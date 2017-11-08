@@ -565,14 +565,11 @@ h3 {
         max-width: 50%; } }
     @media (min-width: 1420px) {
       .hero .systema p {
-        max-width: 32%; } }
+        max-width: 25%; } }
   .hero .systema h1,
   .hero .systema p {
     text-align: center;
     margin: 0 auto; }
-
-.hero .mejs-mediaelement {
-  top: -100px !important; }
 
 .about {
   padding: 7% !important;

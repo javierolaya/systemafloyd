@@ -54,7 +54,7 @@
                 max-width: 50%;
             }
             @include breakpoint (min-width 1420px) {
-                max-width: 32%;
+                max-width: 25%;
             }
         }
         h1,
@@ -63,15 +63,6 @@
             margin: 0 auto;
         }
 
-
-
-
-
-    }
-
-
-    .mejs-mediaelement {
-          top: -100px !important;
     }
 
 }
