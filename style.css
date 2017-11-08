@@ -527,6 +527,19 @@ h3 {
     line-height: 2;
     display: block; }
 
+/*=====================================================
+= Bootstrap 2.3.2 Media Queries =
+=====================================================*/
+@media only screen and (max-width: 320px) {
+  .systema {
+    padding: 20px 0px 22px; }
+    .systema h1 {
+      font-size: 66px;
+      margin-bottom: 2%;
+      line-height: .8; }
+    .systema p {
+      max-width: 80%; } }
+
 /* ==========================================================================
    Home page
    ========================================================================== */
